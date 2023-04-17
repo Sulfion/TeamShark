@@ -9,7 +9,7 @@ public class BeachEggSpawner : MonoBehaviour
     public GameObject[] allEggs;
     public GameObject circleCenterObject;
     public Vector2 circleCenter;
-    private int spawnRadius = 30;
+    public int spawnRadius = 30;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +36,5 @@ public class BeachEggSpawner : MonoBehaviour
         var vector2 = Random.insideUnitCircle.normalized * radius;
         return new Vector3(vector2.x, 0, vector2.y);
     }
-
 }
 
