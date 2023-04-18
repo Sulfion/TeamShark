@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SharkEgg
   - EggSpawner
+  - EggCollector
   layers:
   - Default
   - TransparentFX

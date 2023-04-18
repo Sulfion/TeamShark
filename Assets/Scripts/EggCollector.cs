@@ -5,7 +5,7 @@ using UnityEngine;
 //this script is attached to the players hands and will turn off eggs when they are touched and keep track of how many eggs have been collected
 public class EggCollector : MonoBehaviour
 {
-    private int totalEggsCollected = 0;
+    public int totalEggsCollected = 0;
     private bool allEggsCollected = false; //track when to change scenes
 
     public ParticleSystem collectedEffect;

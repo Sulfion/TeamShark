@@ -8,14 +8,12 @@ public class BeachEggSpawner : MonoBehaviour
 {
     public GameObject[] allEggs;
     public GameObject circleCenterObject;
-    public Vector2 circleCenter;
     public int spawnRadius = 30;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnOneOfEachEggRoutine());
-        circleCenter = circleCenterObject.transform.position;
     }
 
     //start coroutine to spawn one of each shark egg from array at calculated random position
