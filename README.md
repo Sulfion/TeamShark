@@ -5,15 +5,16 @@
 
 ### EG-M130: Assignment 3: Training Machines Group Project VR MSc for Swansea University 
 <br/>
-Explain App <br/>
 
 # :shark: Title
+Explain App <br/>
 
-Video
+## :movie_camera: Video
+Video link
 
 #
 ## :desktop_computer: Website
-### website link
+website link
 #
 ## :hospital: feature 1
 feature 1 explaination
@@ -48,4 +49,4 @@ feature 2 explination
 
 ### NPC's and Animations: 
 <br/>
-#
+
