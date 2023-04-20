@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,21 +12,23 @@ public class EggWaypoint : MonoBehaviour
 {
     public EggCollector eggCollector;
     private Transform targetEggTransform;
+    private GameObject targetEgg;
 
-    public Image waypointImg;
     public TextMeshProUGUI distanceFromEggMeter;
     public Vector3 _offset;
 
     private float lastCollectedEggTimer;
     private int eggCollectedCheck; //compare old and new egg value to see if an egg was collected
-    private float waypointWaitTimer = 15f;
+    private float waypointWaitTimer = 5f;
 
     private Coroutine enableWaypointRoutine;
+
+    public GameObject markerObject;
+    private bool markerBool = false;
 
 
     private void Start()
     {
-        waypointImg.enabled = false;
         distanceFromEggMeter.enabled = false;
 
         eggCollectedCheck = eggCollector.totalEggsCollected;
@@ -47,7 +50,6 @@ public class EggWaypoint : MonoBehaviour
         {
             StopCoroutine(enableWaypointRoutine);
             eggCollectedCheck = eggCollector.totalEggsCollected;
-            waypointImg.enabled = false;
             distanceFromEggMeter.enabled = false;
             lastCollectedEggTimer = 0f;
         }
@@ -59,10 +61,10 @@ public class EggWaypoint : MonoBehaviour
     {
         if (lastCollectedEggTimer >= waypointWaitTimer)
         {
+            targetEgg = GameObject.FindGameObjectWithTag("SharkEgg");
             targetEggTransform = GameObject.FindGameObjectWithTag("SharkEgg").transform;
 
             enableWaypointRoutine = StartCoroutine(StartWaypoint());
-            waypointImg.enabled = true;
             distanceFromEggMeter.enabled = true;
         }
     }
@@ -74,32 +76,39 @@ public class EggWaypoint : MonoBehaviour
 
     public void WayPointManager()
     {
-        //limit the icon to stay inside the screen boundaries
-        float minX = waypointImg.GetPixelAdjustedRect().width / 2;
-        float maxX = Screen.width - minX;
-        float minY = waypointImg.GetPixelAdjustedRect().height / 2;
-        float maxY = Screen.height - minY;
-
-        //set waypoint image to chosen egg
-        Vector2 pos = Camera.main.WorldToScreenPoint(targetEggTransform.position + _offset);
-
-        if (Vector3.Dot((targetEggTransform.position - transform.position), transform.forward) < 0)
+        if (markerBool == false)
         {
-            //Target is behind the player
-            if (pos.x < Screen.width / 2) //if target is left, place to right side of screen
-            {
-                pos.x = maxX;
-            }
-            else //if target is right, place to left side of screen
-            {
-                pos.x = minX;
-            }
+            Instantiate(markerObject, targetEggTransform.position + _offset, Quaternion.identity);
+            markerBool = true;
         }
 
-        pos.x = Mathf.Clamp(pos.x, minX, maxX);
-        pos.y = Mathf.Clamp(pos.y, minY, maxY);
 
-        waypointImg.transform.position = pos;
-        distanceFromEggMeter.text = ((int)Vector3.Distance(targetEggTransform.position, transform.position)).ToString() + "m";
+        ////limit the icon to stay inside the screen boundaries
+        //float minX = waypointImg.GetPixelAdjustedRect().width / 2;
+        //float maxX = Screen.width - minX;
+        //float minY = waypointImg.GetPixelAdjustedRect().height / 2;
+        //float maxY = Screen.height - minY;
+
+        ////set waypoint image to chosen egg
+        //Vector2 pos = Camera.main.WorldToViewportPoint(targetEggTransform.position + _offset);
+
+        //if (Vector3.Dot((targetEggTransform.position - transform.position), transform.forward) < 0)
+        //{
+        //    //Target is behind the player
+        //    if (pos.x < Screen.width / 2) //if target is left, place to right side of screen
+        //    {
+        //        pos.x = maxX;
+        //    }
+        //    else //if target is right, place to left side of screen
+        //    {
+        //        pos.x = minX;
+        //    }
+        //}
+
+        //pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        //pos.y = Mathf.Clamp(pos.y, minY, maxY);
+
+        //waypointImg.transform.position = pos;
+        //distanceFromEggMeter.text = ((int)Vector3.Distance(targetEggTransform.position, transform.position)).ToString() + "m";
     }
 }
