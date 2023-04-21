@@ -2,10 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Flashcards : MonoBehaviour
 {
+    public int CorrectGuesses;
+    public TMP_Text CorrectGuessesText;
+
     public int IncorrectGuesses;
+    public TMP_Text IncorrectGuessesText;
+
+    public GameObject[] ObjectsList;
 
     [Header("Eggs")]
     public GameObject SpottedRayEgg;
@@ -70,9 +77,20 @@ public class Flashcards : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        allfalse(); 
         IncorrectGuesses = 0;
-        allfalse();
+        ObjectsList[Random.Range(0, ObjectsList.Length)].SetActive(true);
+        
+        
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        CorrectGuessesText.text = "Correct Guesses: " + CorrectGuesses.ToString() + "/13";
+        IncorrectGuessesText.text = "Incorrect Guesses: " + IncorrectGuesses.ToString();
+    }
+
     void OnEnable()
     {
         //Register Button Events
@@ -107,8 +125,10 @@ public class Flashcards : MonoBehaviour
             if (SpottedRayEgg.activeInHierarchy == true)
             {
                 CorrectSpottedRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+
             }
 
         }
@@ -127,6 +147,7 @@ public class Flashcards : MonoBehaviour
             if (ThornbackRayEgg.activeInHierarchy == true)
             {
                 CorrectThornbackRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -146,6 +167,7 @@ public class Flashcards : MonoBehaviour
             if (SmallEyedRayEgg.activeInHierarchy == true)
             {
                 CorrectSmallEyedRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -166,6 +188,7 @@ public class Flashcards : MonoBehaviour
             if (UndulateRayEgg.activeInHierarchy == true)
             {
                 CorrectUndulateRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -185,6 +208,7 @@ public class Flashcards : MonoBehaviour
             if (CuckooRayEgg.activeInHierarchy == true)
             {
                 CorrectCuckooRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -205,6 +229,7 @@ public class Flashcards : MonoBehaviour
             if (BlondeRayEgg.activeInHierarchy == true)
             {
                 CorrectBlondeRay.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -224,6 +249,7 @@ public class Flashcards : MonoBehaviour
             if (StarrySkateEgg.activeInHierarchy == true)
             {
                 CorrectStarrySkate.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -243,6 +269,7 @@ public class Flashcards : MonoBehaviour
             if (BlueSkakeEgg.activeInHierarchy == true)
             {
                 CorrectBlueSkake.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -262,6 +289,7 @@ public class Flashcards : MonoBehaviour
             if (FlapperSkakeEgg.activeInHierarchy == true)
             {
                 CorrectFlapperSkake.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -282,6 +310,7 @@ public class Flashcards : MonoBehaviour
             if (WhiteSkakeEgg.activeInHierarchy == true)
             {
                 CorrectWhiteSkake.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -302,6 +331,7 @@ public class Flashcards : MonoBehaviour
             if (SmallspottedCatsharkEgg.activeInHierarchy == true)
             {
                 CorrectSmallspottedCatshark.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -321,6 +351,7 @@ public class Flashcards : MonoBehaviour
             if (NursehoundEgg.activeInHierarchy == true)
             {
                 CorrectNursehound.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
@@ -341,6 +372,7 @@ public class Flashcards : MonoBehaviour
             if (BlackmouthCatsharkEgg.activeInHierarchy == true)
             {
                 CorrectBlackmouthCatshark.SetActive(true);
+                CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
             }
