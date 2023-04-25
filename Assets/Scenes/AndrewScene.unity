@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eggCollector: {fileID: 1079942503}
-  distanceFromEggMeter: {fileID: 1035475935}
+  targetEgg: {fileID: 0}
   _offset: {x: 0, y: 3.2, z: 0}
   markerObject: {fileID: 3074940844043451647, guid: 2f43577f0da891143b09f9a632948c4b,
     type: 3}
@@ -5736,7 +5736,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -351022541804052484, guid: 9a4f0b347b18a6a4c90881b0bbf81e82, type: 3}
+  - {fileID: 2100000, guid: b9059dd548e0eda44952c4625fef2f2a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
