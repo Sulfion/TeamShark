@@ -12,10 +12,10 @@ public class ContinueToAndrew : MonoBehaviour
     void Start()
     {
         Button btn = ContinueButton.GetComponent<Button>();
-        btn.onClick.AddListener(LoadAndrew);
+        btn.onClick.AddListener(LoadCaitlin);
     }
 
-    public void LoadAndrew()
+    public void LoadCaitlin()
     {
         SceneManager.LoadScene("CaitlinScene");
     }
