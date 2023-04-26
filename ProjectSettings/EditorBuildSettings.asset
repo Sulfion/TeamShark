@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 76dcd85f22e47354dba72a2577af6698
   - enabled: 1
-    path: Assets/Scenes/AndrewScene.unity
-    guid: afc6db3124249d04b9fc87fade484d3f
+    path: Assets/Scenes/LukeScene.unity
+    guid: a0944ecb25d6409428907cfa4772d61e
   - enabled: 1
     path: Assets/Scenes/Flashcards.unity
     guid: 0ce3b3dbb7977a247bbf7fa3da32e232
+  - enabled: 0
+    path: Assets/Scenes/AndrewScene.unity
+    guid: afc6db3124249d04b9fc87fade484d3f
   - enabled: 1
-    path: Assets/Scenes/LukeScene 1.unity
-    guid: a0944ecb25d6409428907cfa4772d61e
+    path: Assets/Scenes/CaitlinScene.unity
+    guid: d14a5cfbac7ad93439da5be4bb73acd1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
