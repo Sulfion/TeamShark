@@ -96,9 +96,9 @@ public class Flashcards : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CorrectGuessesText.text = "Correct Guesses: " + CorrectGuesses.ToString() + "/13";
+        CorrectGuessesText.text = "Correct Guesses: " + CorrectGuesses.ToString() + "/8";
         IncorrectGuessesText.text = "Incorrect Guesses: " + IncorrectGuesses.ToString();
-        if (CorrectGuesses == 2)
+        if (CorrectGuesses == 8)
         {
             FinishFlash();
         }
