@@ -11,6 +11,19 @@ public class EggLoader : MonoBehaviour
     public int CorrectGuesses1;
     public int IncorrectGuesses1;
 
+    public bool DoneSpottedRay;
+    public bool DoneThornbackRay;
+    public bool DoneSmallEyedRay;
+    public bool DoneUndulateRay;
+    public bool DoneCuckooRay;
+    public bool DoneBlondeRay;
+    public bool DoneStarrySkate;
+    public bool DoneBlueSkake;
+    public bool DoneFlapperSkake;
+    public bool DoneWhiteSkake;
+    public bool DoneSmallspottedCatshark;
+    public bool DoneNursehound;
+    public bool DoneBlackmouthCatshark;
 
     [Header("Eggs")]
     public GameObject SpottedRayEgg;
@@ -71,7 +84,21 @@ public class EggLoader : MonoBehaviour
     void Start()
     {
         CorrectGuesses1 = 0;
+        IncorrectGuesses1 = 0;
         ChooseRandomFromListDeleteOnceChosen();
+        DoneSpottedRay = false;
+        DoneThornbackRay = false;
+        DoneSmallEyedRay = false;
+        DoneUndulateRay = false;
+        DoneCuckooRay = false;
+        DoneBlondeRay = false;
+        DoneStarrySkate = false;
+        DoneBlueSkake = false;
+        DoneFlapperSkake = false;
+        DoneWhiteSkake = false;
+        DoneSmallspottedCatshark = false;
+        DoneNursehound = false;
+        DoneBlackmouthCatshark = false;
     }
 
     // Update is called once per frame
@@ -79,69 +106,151 @@ public class EggLoader : MonoBehaviour
     {
         if (CorrectSpottedRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+
+            if (DoneSpottedRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneSpottedRay = true;
+            }
+            
         }
         if (CorrectThornbackRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneThornbackRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneThornbackRay = true;
+            }
         }
         if (CorrectSmallEyedRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneSmallEyedRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneSmallEyedRay = true;
+            }
         }
         if (CorrectUndulateRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneUndulateRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneUndulateRay = true;
+            }
         }
         if (CorrectCuckooRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneCuckooRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneCuckooRay = true;
+            }
         }
         if (CorrectBlondeRay.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneBlondeRay == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneBlondeRay = true;
+            }
         }
         if (CorrectStarrySkate.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneStarrySkate == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneStarrySkate = true;
+            }
         }
         if (CorrectBlueSkake.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if(DoneBlueSkake == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneBlueSkake = true;
+            }
         }
         if (CorrectFlapperSkake.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneFlapperSkake == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneFlapperSkake = true;
+            }
         }
         if (CorrectWhiteSkake.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneWhiteSkake == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneWhiteSkake = true;
+            }
         }
         if (CorrectSmallspottedCatshark.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneSmallspottedCatshark == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneSmallspottedCatshark = true;
+            }
         }
         if (CorrectNursehound.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneNursehound == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneNursehound = true;
+            }
         }
         if (CorrectBlackmouthCatshark.activeInHierarchy == true)
         {
-            CorrectGuesses1 = CorrectGuesses1 + 1;
-            ChooseRandomFromListDeleteOnceChosen();
+            if (DoneBlackmouthCatshark == false)
+            {
+                CorrectGuesses1 = CorrectGuesses1 + 1;
+                resetpanel();
+                ChooseRandomFromListDeleteOnceChosen();
+                DoneBlackmouthCatshark = true;
+            }
         }
-
     }
+    void resetpanel()
+        {
+            IncorrectSpottedRay.SetActive(false);
+            IncorrectThornbackRay.SetActive(false);
+            IncorrectSmallEyedRay.SetActive(false);
+            IncorrectUndulateRay.SetActive(false);
+            IncorrectCuckooRay.SetActive(false);
+            IncorrectBlondeRay.SetActive(false);
+            IncorrectStarrySkate.SetActive(false);
+            IncorrectBlueSkake.SetActive(false);
+            IncorrectFlapperSkake.SetActive(false);
+            IncorrectWhiteSkake.SetActive(false);
+            IncorrectSmallspottedCatshark.SetActive(false);
+            IncorrectNursehound.SetActive(false);
+            IncorrectBlackmouthCatshark.SetActive(false);
+        }
 }

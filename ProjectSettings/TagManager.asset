@@ -13,7 +13,6 @@ TagManager:
   - SmallEyedRayEgg
   - UndulateRayEgg
   - CuckooRayEgg
-  - 'BlondeRayEgg '
   - StarrySkateEgg
   - BlueSkakeEgg
   - FlapperSkakeEgg
@@ -21,6 +20,7 @@ TagManager:
   - SmallspottedCatsharkEgg
   - NursehoundEgg
   - BlackmouthCatsharkEgg
+  - BlondeRayEgg
   layers:
   - Default
   - TransparentFX

@@ -1041,6 +1041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32422178}
   - component: {fileID: 32422179}
+  - component: {fileID: 32422180}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -1076,6 +1077,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &32422180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32422177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562bf13af63da0f49be1d511faff17d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 2087187201}
+  IncorrectPanel: {fileID: 1550002062}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &33658683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130277969}
   - component: {fileID: 130277970}
+  - component: {fileID: 130277971}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -2210,6 +2240,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &130277971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130277968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4b7fb3f5ffb9444bef14ae676c4adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1476617275}
+  IncorrectPanel: {fileID: 1329851798}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &131249043
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,6 +3108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212387970}
   - component: {fileID: 212387971}
+  - component: {fileID: 212387972}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -3085,6 +3144,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &212387972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212387969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d588acb2bfc2944b2dbca0e95f06c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1759953026}
+  IncorrectPanel: {fileID: 842695402}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!64 &226067411
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3557,6 +3644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291808971}
   - component: {fileID: 291808972}
+  - component: {fileID: 291808973}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -3592,6 +3680,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &291808973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291808970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4309fd2a0cef4f4aaf3744c58640a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 384191748}
+  IncorrectPanel: {fileID: 1886181387}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &305121919
 GameObject:
   m_ObjectHideFlags: 0
@@ -6808,6 +6924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526774592}
   - component: {fileID: 526774593}
+  - component: {fileID: 526774594}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -6843,6 +6960,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &526774594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526774591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 196585c1b279a724bb42063a201b5bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 889641293}
+  IncorrectPanel: {fileID: 1709852860}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!23 &526898792
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7472,6 +7617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547187851}
   - component: {fileID: 547187852}
+  - component: {fileID: 547187853}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -7507,6 +7653,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &547187853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547187850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7443de2b24303b544886f1375d541945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1545417135}
+  IncorrectPanel: {fileID: 1959529268}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &550261540
 GameObject:
   m_ObjectHideFlags: 0
@@ -8167,6 +8341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568441387}
   - component: {fileID: 568441388}
+  - component: {fileID: 568441389}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -8202,6 +8377,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &568441389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568441386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa090680440b02469b72e8a960deb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1779465294}
+  IncorrectPanel: {fileID: 431030493}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &577346505
 GameObject:
   m_ObjectHideFlags: 0
@@ -9512,6 +9715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752026738}
   - component: {fileID: 752026739}
+  - component: {fileID: 752026740}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -9547,6 +9751,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &752026740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752026737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2432451d78b8ffc4e9ea5d994d61362c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1610538089}
+  IncorrectPanel: {fileID: 939479300}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &752940476
 GameObject:
   m_ObjectHideFlags: 0
@@ -9761,6 +9993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758879924}
   - component: {fileID: 758879925}
+  - component: {fileID: 758879926}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -9796,6 +10029,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &758879926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758879923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3b107226fe64346923890cb8b33493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 1426575711}
+  IncorrectPanel: {fileID: 538158285}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &761843745
 GameObject:
   m_ObjectHideFlags: 0
@@ -15778,6 +16039,19 @@ MonoBehaviour:
   CorrectPanel: {fileID: 2025314629}
   IncorrectPanel: {fileID: 1651910950}
   EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &1176099101
 GameObject:
   m_ObjectHideFlags: 0
@@ -17769,6 +18043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332705438}
   - component: {fileID: 1332705439}
+  - component: {fileID: 1332705440}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -17804,6 +18079,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &1332705440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332705437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94202a40f9dd5314c8b6ba4ce5450345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 465533889}
+  IncorrectPanel: {fileID: 173665447}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &1335522795
 GameObject:
   m_ObjectHideFlags: 0
@@ -18846,7 +19149,7 @@ GameObject:
   - component: {fileID: 1431194626}
   m_Layer: 0
   m_Name: 'Blonde Ray Egg '
-  m_TagString: 'BlondeRayEgg '
+  m_TagString: BlondeRayEgg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21763,6 +22066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594800705}
   - component: {fileID: 1594800706}
+  - component: {fileID: 1594800707}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -21798,6 +22102,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &1594800707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594800704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464596b8bb908da40a9d009fcd07eb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 113198782}
+  IncorrectPanel: {fileID: 688396175}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &1599487015
 GameObject:
   m_ObjectHideFlags: 0
@@ -23758,6 +24090,19 @@ MonoBehaviour:
   - {fileID: 562830942}
   CorrectGuesses1: 0
   IncorrectGuesses1: 0
+  DoneSpottedRay: 0
+  DoneThornbackRay: 0
+  DoneSmallEyedRay: 0
+  DoneUndulateRay: 0
+  DoneCuckooRay: 0
+  DoneBlondeRay: 0
+  DoneStarrySkate: 0
+  DoneBlueSkake: 0
+  DoneFlapperSkake: 0
+  DoneWhiteSkake: 0
+  DoneSmallspottedCatshark: 0
+  DoneNursehound: 0
+  DoneBlackmouthCatshark: 0
   SpottedRayEgg: {fileID: 1938522655}
   ThornbackRayEgg: {fileID: 508025120}
   SmallEyedRayEgg: {fileID: 961457221}
@@ -23886,6 +24231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750590196}
   - component: {fileID: 1750590197}
+  - component: {fileID: 1750590198}
   m_Layer: 0
   m_Name: shelf trigger
   m_TagString: Untagged
@@ -23921,6 +24267,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.49999997, z: 1.2}
   m_Center: {x: 0, y: 0.6, z: 0.4}
+--- !u!114 &1750590198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750590195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86e4d0c01e9ec445a5ebd63d6be3217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectPanel: {fileID: 797694642}
+  IncorrectPanel: {fileID: 1116352039}
+  EggLoaderScript: {fileID: 1718862199}
+  SpottedRay: 0
+  ThornbackRay: 0
+  SmallEyedRay: 0
+  UndulateRay: 0
+  CuckooRay: 0
+  BlondeRay: 0
+  StarrySkate: 0
+  BlueSkake: 0
+  FlapperSkake: 0
+  WhiteSkake: 0
+  SmallspottedCatshark: 0
+  Nursehound: 0
+  BlackmouthCatshark: 0
 --- !u!1 &1755393104
 GameObject:
   m_ObjectHideFlags: 0
