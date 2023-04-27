@@ -179,7 +179,7 @@ public class Painting_Blue_Skate_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneBlueSkake == false)
         {
             IncorrectPanel.SetActive(true);
         }

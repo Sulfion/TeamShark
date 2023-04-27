@@ -179,7 +179,7 @@ public class Painting_Blonde_ray_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneBlondeRay == false)
         {
             IncorrectPanel.SetActive(true);
         }

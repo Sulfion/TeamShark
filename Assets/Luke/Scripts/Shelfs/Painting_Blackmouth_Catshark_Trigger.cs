@@ -179,7 +179,7 @@ public class Painting_Blackmouth_Catshark_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneBlackmouthCatshark == false)
         {
             IncorrectPanel.SetActive(true);
         }

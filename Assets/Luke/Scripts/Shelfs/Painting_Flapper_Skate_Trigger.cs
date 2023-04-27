@@ -179,7 +179,7 @@ public class Painting_Flapper_Skate_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneFlapperSkake == false)
         {
             IncorrectPanel.SetActive(true);
         }

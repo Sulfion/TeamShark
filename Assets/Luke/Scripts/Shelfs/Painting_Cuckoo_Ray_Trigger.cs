@@ -177,7 +177,7 @@ public class Painting_Cuckoo_Ray_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneCuckooRay == false)
         {
             IncorrectPanel.SetActive(true);
         }

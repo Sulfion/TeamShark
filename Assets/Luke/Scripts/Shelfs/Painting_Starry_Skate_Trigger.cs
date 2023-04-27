@@ -179,7 +179,7 @@ public class Painting_Starry_Skate_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneStarrySkate == false)
         {
             IncorrectPanel.SetActive(true);
         }

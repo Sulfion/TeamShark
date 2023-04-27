@@ -180,7 +180,7 @@ public class Painting_Smallspotted_Catshark_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneSmallspottedCatshark == false)
         {
             IncorrectPanel.SetActive(true);
         }

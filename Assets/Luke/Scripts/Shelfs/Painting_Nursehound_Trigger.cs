@@ -180,7 +180,7 @@ public class Painting_Nursehound_Trigger : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (EggLoaderScript.DoneNursehound == false)
         {
             IncorrectPanel.SetActive(true);
         }
