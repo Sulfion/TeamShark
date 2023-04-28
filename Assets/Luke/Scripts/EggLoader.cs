@@ -11,6 +11,7 @@ public class EggLoader : MonoBehaviour
     public int CorrectGuesses1;
     public int IncorrectGuesses1;
 
+    [Header("DoneBools")]
     public bool DoneSpottedRay;
     public bool DoneThornbackRay;
     public bool DoneSmallEyedRay;
@@ -69,6 +70,15 @@ public class EggLoader : MonoBehaviour
     public GameObject IncorrectSmallspottedCatshark;
     public GameObject IncorrectNursehound;
     public GameObject IncorrectBlackmouthCatshark;
+
+    [Header("TV panels")]
+    public GameObject TV1;
+    public GameObject TV2;
+    public GameObject TV3;
+    public GameObject TV4;
+    public GameObject TV5;
+    public GameObject TV6;
+    public GameObject TV7;
 
     private void ChooseRandomFromListDeleteOnceChosen()
     {
@@ -238,7 +248,7 @@ public class EggLoader : MonoBehaviour
         }
     }
     void resetpanel()
-        {
+    {
             IncorrectSpottedRay.SetActive(false);
             IncorrectThornbackRay.SetActive(false);
             IncorrectSmallEyedRay.SetActive(false);
@@ -252,5 +262,12 @@ public class EggLoader : MonoBehaviour
             IncorrectSmallspottedCatshark.SetActive(false);
             IncorrectNursehound.SetActive(false);
             IncorrectBlackmouthCatshark.SetActive(false);
-        }
+
+            TV1.SetActive(true);
+            TV2.SetActive(false);
+            TV3.SetActive(false);
+            TV4.SetActive(false);
+            TV6.SetActive(false);
+            TV7.SetActive(false);
+    }
 }
