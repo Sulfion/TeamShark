@@ -10,25 +10,58 @@ public class InformationPopup : MonoBehaviour
 
     public AudioSource EggInfoAudioSource;
 
-    public AudioClip EggOneInformation;
-    //public AudioClip EggTwoInformation;
-    //public AudioClip EggThreeInformation;
-    //public AudioClip EggFourInformation;
-    //public AudioClip EggFiveInformation;
-    //public AudioClip EggSixInformation;
-    //public AudioClip EggSevenInformation;
-    //public AudioClip EggEightInformation;
-    //public AudioClip EggNineInformation;
-    //public AudioClip EggTenInformation;
+    public AudioClip BlondeRayInformation;
+    public AudioClip CuckooRayInformation;
+    public AudioClip NursehoundInformation;
+    public AudioClip SmallEyedRayInformation;
+    public AudioClip SmallSpottedCatsharkInformation;
+    public AudioClip SpottedRayInformation;
+    public AudioClip ThornbackRayInformation;
+    public AudioClip UndulateRayInformation;
 
     //check if an audio explanation is already playing, if it is not and
     //a user gets close enough to an egg, play the appropriate explanation once
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("EggCollector") && EggInfoAudioSource.isPlaying == false)
+        if (other.gameObject.CompareTag("BlondeRayTrigger") && EggInfoAudioSource.isPlaying == false)
         {
             stopAudioBool = true;
-            EggInfoAudioSource.PlayOneShot(EggOneInformation);
+            EggInfoAudioSource.PlayOneShot(BlondeRayInformation);
+        }
+        if (other.gameObject.CompareTag("CuckooRayTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(CuckooRayInformation);
+        }
+        if (other.gameObject.CompareTag("NursehoundTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(NursehoundInformation);
+        }
+        if (other.gameObject.CompareTag("SmallEyedRayTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(SmallEyedRayInformation);
+        }
+        if (other.gameObject.CompareTag("SmallSpottedCatsharkTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(SmallSpottedCatsharkInformation);
+        }
+        if (other.gameObject.CompareTag("SpottedRayTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(SpottedRayInformation);
+        }
+        if (other.gameObject.CompareTag("ThornbackRayTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(ThornbackRayInformation);
+        }
+        if (other.gameObject.CompareTag("UndulateRayTrigger") && EggInfoAudioSource.isPlaying == false)
+        {
+            stopAudioBool = true;
+            EggInfoAudioSource.PlayOneShot(UndulateRayInformation);
         }
     }
 }

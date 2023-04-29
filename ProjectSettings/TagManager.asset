@@ -21,6 +21,14 @@ TagManager:
   - NursehoundEgg
   - BlackmouthCatsharkEgg
   - BlondeRayEgg
+  - BlondeRayTrigger
+  - CuckooRayTrigger
+  - NursehoundTrigger
+  - SmallEyedRayTrigger
+  - SmallSpottedCatsharkTrigger
+  - SpottedRayTrigger
+  - ThornbackRayTrigger
+  - UndulateRayTrigger
   layers:
   - Default
   - TransparentFX
