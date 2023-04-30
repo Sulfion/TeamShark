@@ -8,7 +8,6 @@ public class BeachEggSpawner : MonoBehaviour
 {
     public GameObject[] allEggs;
     public GameObject circleCenterObject;
-    public int spawnRadius = 30;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +20,7 @@ public class BeachEggSpawner : MonoBehaviour
     {
         foreach (GameObject egg in allEggs)
         {
-            Vector3 newPos = RandomPointOnCircleEdge(spawnRadius);
+            Vector3 newPos = RandomPointOnCircleEdge(Random.Range(24, 28));
             Instantiate(egg, newPos, Quaternion.identity);
         }
         yield return null;

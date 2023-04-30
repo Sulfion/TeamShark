@@ -8,6 +8,27 @@ TagManager:
   - EggSpawner
   - EggCollector
   - MarkerObject
+  - SpottedRayEgg
+  - ThornbackRayEgg
+  - SmallEyedRayEgg
+  - UndulateRayEgg
+  - CuckooRayEgg
+  - StarrySkateEgg
+  - BlueSkakeEgg
+  - FlapperSkakeEgg
+  - WhiteSkakeEgg
+  - SmallspottedCatsharkEgg
+  - NursehoundEgg
+  - BlackmouthCatsharkEgg
+  - BlondeRayEgg
+  - BlondeRayTrigger
+  - CuckooRayTrigger
+  - NursehoundTrigger
+  - SmallEyedRayTrigger
+  - SmallSpottedCatsharkTrigger
+  - SpottedRayTrigger
+  - ThornbackRayTrigger
+  - UndulateRayTrigger
   layers:
   - Default
   - TransparentFX

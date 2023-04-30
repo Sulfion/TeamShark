@@ -12,7 +12,11 @@ public class Flashcards : MonoBehaviour
     public int IncorrectGuesses;
     public TMP_Text IncorrectGuessesText;
 
-    public GameObject[] ObjectsList;
+    public GameObject ThisScript;
+
+    [Header("UI Buttons")]
+    public GameObject ContinueButton;
+    public GameObject RestartButton;
 
     [Header("Eggs")]
     public GameObject SpottedRayEgg;
@@ -74,21 +78,30 @@ public class Flashcards : MonoBehaviour
     public Button button12;
     public Button button13;
 
+    public List<GameObject> EggList = new List<GameObject>();
+
+    private GameObject chosenEgg;
+    
+
     // Start is called before the first frame update
     void Start()
     {
-        allfalse(); 
+        allfalse();
+        CorrectGuesses = 0;
         IncorrectGuesses = 0;
-        ObjectsList[Random.Range(0, ObjectsList.Length)].SetActive(true);
-        
-        
+        ChooseRandomFromListDeleteOnceChosen();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        CorrectGuessesText.text = "Correct Guesses: " + CorrectGuesses.ToString() + "/13";
+        CorrectGuessesText.text = "Correct Guesses: " + CorrectGuesses.ToString() + "/8";
         IncorrectGuessesText.text = "Incorrect Guesses: " + IncorrectGuesses.ToString();
+        if (CorrectGuesses == 8)
+        {
+            FinishFlash();
+        }
     }
 
     void OnEnable()
@@ -120,6 +133,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectSpottedRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (SpottedRayEgg.activeInHierarchy == true)
@@ -128,7 +142,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
-
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -142,6 +156,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectThornbackRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (ThornbackRayEgg.activeInHierarchy == true)
@@ -150,6 +165,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -162,6 +178,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectSmallEyedRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (SmallEyedRayEgg.activeInHierarchy == true)
@@ -170,6 +187,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -183,6 +201,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectUndulateRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (UndulateRayEgg.activeInHierarchy == true)
@@ -191,6 +210,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -203,6 +223,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectCuckooRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }        
             
             if (CuckooRayEgg.activeInHierarchy == true)
@@ -211,6 +232,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -224,6 +246,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectBlondeRay.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (BlondeRayEgg.activeInHierarchy == true)
@@ -232,6 +255,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -244,6 +268,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectStarrySkate.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (StarrySkateEgg.activeInHierarchy == true)
@@ -252,6 +277,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -264,6 +290,7 @@ public class Flashcards : MonoBehaviour
             {
                 IncorrectBlueSkake.SetActive(true);
                 IncorrectGuesses = IncorrectGuesses + 1;
+                
             }
 
             if (BlueSkakeEgg.activeInHierarchy == true)
@@ -272,6 +299,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -292,6 +320,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -313,6 +342,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -334,6 +364,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
 
@@ -354,6 +385,7 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
 
         }
@@ -375,10 +407,10 @@ public class Flashcards : MonoBehaviour
                 CorrectGuesses = CorrectGuesses + 1;
                 allIncorrectFalse();
                 allfalse();
+                ChooseRandomFromListDeleteOnceChosen();
             }
         }
     }
-
     
     void allfalse()
     {
@@ -413,5 +445,22 @@ public class Flashcards : MonoBehaviour
         IncorrectSmallspottedCatshark.SetActive(false);
         IncorrectNursehound.SetActive(false);
         IncorrectBlackmouthCatshark.SetActive(false);
+    }
+
+    private void ChooseRandomFromListDeleteOnceChosen()
+    {
+        if (EggList.Count > 0)
+        {
+            chosenEgg = EggList[Random.Range(0, EggList.Count)];
+            chosenEgg.SetActive(true);
+            EggList.Remove(chosenEgg);
+        }
+    }
+
+    void FinishFlash()
+    {
+        ContinueButton.SetActive(true);
+        RestartButton.SetActive(true);
+        ThisScript.SetActive(false);
     }
 }
