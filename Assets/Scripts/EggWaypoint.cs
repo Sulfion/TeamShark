@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 //this script will create a waypoint to a random undiscovered egg after a certain amount of time has elapsed
 //if an egg is collected, the waypoint will dissappear again and then reappear after enough time has passed again
@@ -24,7 +25,10 @@ public class EggWaypoint : MonoBehaviour
 
     public GameObject markerObject;
     private GameObject markerObjectCopy;
+    private string chosenTag;
 
+    private string[] allEggTags = { "BlondeRayEgg", "CuckooRayEgg", "NursehoundEgg", "SmallEyedRayEgg",
+                                    "SmallspottedCatsharkEgg", "SpottedRayEgg", "ThornbackRayEgg", "UndulateRayEgg"};
 
 
     private void Start()
@@ -48,8 +52,11 @@ public class EggWaypoint : MonoBehaviour
 
             if (lastCollectedEggTimer >= waypointWaitTimer && stopRunning == false) //find a spot to spawn the marker after specified time
             {
-                targetEgg = GameObject.FindGameObjectWithTag("SharkEgg");
-                targetEggTransform = GameObject.FindGameObjectWithTag("SharkEgg").transform;
+                chosenTag = allEggTags[Random.Range(0, allEggTags.Length)]; //choose a random tag from list, find gameobject with tag
+
+                targetEgg = GameObject.FindGameObjectWithTag(chosenTag);
+                targetEggTransform = GameObject.FindGameObjectWithTag(chosenTag).transform;
+
                 MarkerSpawner();
                 stopRunning = true;
             }
