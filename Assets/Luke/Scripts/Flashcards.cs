@@ -12,7 +12,7 @@ public class Flashcards : MonoBehaviour
     public int IncorrectGuesses;
     public TMP_Text IncorrectGuessesText;
 
-    public GameObject ThisScript;
+    //public GameObject ThisScript;
 
     [Header("UI Buttons")]
     public GameObject ContinueButton;
@@ -480,6 +480,6 @@ public class Flashcards : MonoBehaviour
     {
         ContinueButton.SetActive(true);
         RestartButton.SetActive(true);
-        ThisScript.SetActive(false);
+        //ThisScript.SetActive(false);
     }
 }
