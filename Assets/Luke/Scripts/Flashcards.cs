@@ -63,6 +63,16 @@ public class Flashcards : MonoBehaviour
     public GameObject IncorrectNursehound;
     public GameObject IncorrectBlackmouthCatshark;
 
+    [Header("Key ID Panel")]
+    public GameObject ScoreBoard;
+    public GameObject TV1;
+    public GameObject TV2;
+    public GameObject TV3;
+    public GameObject TV4;
+    public GameObject TV5;
+    public GameObject TV6;
+    public GameObject TV7;
+
     [Header("Buttons")]
     public Button button1;
     public Button button2;
@@ -427,6 +437,15 @@ public class Flashcards : MonoBehaviour
         SmallspottedCatsharkEgg.SetActive(false);
         NursehoundEgg.SetActive(false);
         BlackmouthCatsharkEgg.SetActive(false);
+        
+        ScoreBoard.SetActive(true);
+        TV1.SetActive(false);
+        TV2.SetActive(false);
+        TV3.SetActive(false);
+        TV4.SetActive(false);
+        TV5.SetActive(false);
+        TV6.SetActive(false);
+        TV7.SetActive(false);
 
     }
 
