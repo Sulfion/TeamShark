@@ -29277,12 +29277,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608974319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 181cb9cebb2e7a64ab24a7162a4fbda4, type: 3}
+  m_Script: {fileID: 11500000, guid: 45c00b6670d80404f877856e81e06e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EggLoaderScript: {fileID: 1718862196}
   ThisObject: {fileID: 1608974319}
   Eggwaypoint: {fileID: 655445599}
+  panel: {fileID: 575939623}
 --- !u!1 &1610538089
 GameObject:
   m_ObjectHideFlags: 0
