@@ -2781,6 +2781,7 @@ GameObject:
   - component: {fileID: 284512513}
   - component: {fileID: 284512514}
   - component: {fileID: 284512515}
+  - component: {fileID: 284512516}
   m_Layer: 0
   m_Name: Blonde Ray Egg holder
   m_TagString: BlondeRayEgg
@@ -2968,6 +2969,18 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &284512516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284512511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &286645899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,6 +4299,7 @@ GameObject:
   - component: {fileID: 394301220}
   - component: {fileID: 394301219}
   - component: {fileID: 394301218}
+  - component: {fileID: 394301221}
   m_Layer: 0
   m_Name: Smallspotted Catshark Holder
   m_TagString: SmallspottedCatsharkEgg
@@ -4473,6 +4487,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.012909651, y: 0.0140244365, z: 0.051989555}
   m_Center: {x: -0.00088107586, y: -0.00046136975, z: -0.00019431114}
+--- !u!114 &394301221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394301216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &399994725
 GameObject:
   m_ObjectHideFlags: 0
@@ -8369,6 +8395,7 @@ GameObject:
   - component: {fileID: 661375710}
   - component: {fileID: 661375709}
   - component: {fileID: 661375708}
+  - component: {fileID: 661375711}
   m_Layer: 0
   m_Name: Small-eyed Ray Holder
   m_TagString: SmallEyedRayEgg
@@ -8556,6 +8583,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.056156874, y: 0.022673905, z: 0.1100893}
   m_Center: {x: 0.0006479025, y: 0.0012423098, z: -0.00032544136}
+--- !u!114 &661375711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661375706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &665462360
 GameObject:
   m_ObjectHideFlags: 0
@@ -9092,6 +9131,7 @@ GameObject:
   - component: {fileID: 723318033}
   - component: {fileID: 723318032}
   - component: {fileID: 723318031}
+  - component: {fileID: 723318034}
   m_Layer: 0
   m_Name: Thornback Ray Holder
   m_TagString: ThornbackRayEgg
@@ -9279,6 +9319,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.056791544, y: 0.021338165, z: 0.11171794}
   m_Center: {x: -0.00006854534, y: 0.0021796525, z: 0.00021207333}
+--- !u!114 &723318034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723318029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &738418108
 GameObject:
   m_ObjectHideFlags: 0
@@ -16518,6 +16570,7 @@ GameObject:
   - component: {fileID: 1296022665}
   - component: {fileID: 1296022664}
   - component: {fileID: 1296022663}
+  - component: {fileID: 1296022667}
   m_Layer: 0
   m_Name: Undulate Ray Holder
   m_TagString: UndulateRayEgg
@@ -16705,6 +16758,18 @@ Transform:
   m_Father: {fileID: 1985937842}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296022667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296022662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1297917964
 GameObject:
   m_ObjectHideFlags: 0
@@ -16925,6 +16990,7 @@ GameObject:
   - component: {fileID: 1299963841}
   - component: {fileID: 1299963840}
   - component: {fileID: 1299963839}
+  - component: {fileID: 1299963843}
   m_Layer: 0
   m_Name: Cuckoo Ray Egg Holder
   m_TagString: CuckooRayEgg
@@ -17112,6 +17178,18 @@ Transform:
   m_Father: {fileID: 1985937842}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299963843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299963838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1309478554
 GameObject:
   m_ObjectHideFlags: 0
@@ -17124,6 +17202,7 @@ GameObject:
   - component: {fileID: 1309478558}
   - component: {fileID: 1309478557}
   - component: {fileID: 1309478556}
+  - component: {fileID: 1309478559}
   m_Layer: 0
   m_Name: Spotted Ray Holder
   m_TagString: SpottedRayEgg
@@ -17311,6 +17390,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.049681187, y: 0.022963405, z: 0.12817359}
   m_Center: {x: 0.00023627281, y: 0.00035125017, z: -0.00029575825}
+--- !u!114 &1309478559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309478554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1327318319
 GameObject:
   m_ObjectHideFlags: 0
@@ -21082,6 +21173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1559368644}
+  - component: {fileID: 1559368645}
   m_Layer: 0
   m_Name: Empty Egg
   m_TagString: Untagged
@@ -21104,6 +21196,18 @@ Transform:
   m_Father: {fileID: 1985937842}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559368645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559368643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1560251589
 GameObject:
   m_ObjectHideFlags: 0
@@ -24886,6 +24990,7 @@ GameObject:
   - component: {fileID: 1796470699}
   - component: {fileID: 1796470698}
   - component: {fileID: 1796470697}
+  - component: {fileID: 1796470700}
   m_Layer: 0
   m_Name: Nursehound Egg Holder
   m_TagString: NursehoundEgg
@@ -25073,6 +25178,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.036563396, y: 0.023718894, z: 0.08788347}
   m_Center: {x: -0.00026631355, y: -0.00006392598, z: 0.00006651878}
+--- !u!114 &1796470700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796470695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1799002085
 GameObject:
   m_ObjectHideFlags: 0
@@ -35608,6 +35725,7 @@ GameObject:
   - component: {fileID: 7714993124457669508}
   - component: {fileID: 7714993124457669507}
   - component: {fileID: 7714993124457669506}
+  - component: {fileID: 7714993124457669509}
   m_Layer: 0
   m_Name: Ruler
   m_TagString: Untagged
@@ -37061,6 +37179,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.012749399, y: 0.0007849932, z: 0.14657305}
   m_Center: {x: -0.022493979, y: 0.00014377786, z: 0.00079820096}
+--- !u!114 &7714993124457669509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4930955123745663762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4587cf33e81a4444a909855c2c31339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &7722891270456670994
 MeshFilter:
   m_ObjectHideFlags: 0
