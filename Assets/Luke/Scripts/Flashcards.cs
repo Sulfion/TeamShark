@@ -12,7 +12,7 @@ public class Flashcards : MonoBehaviour
     public int IncorrectGuesses;
     public TMP_Text IncorrectGuessesText;
 
-    public GameObject ThisScript;
+    //public GameObject ThisScript;
 
     [Header("UI Buttons")]
     public GameObject ContinueButton;
@@ -62,6 +62,16 @@ public class Flashcards : MonoBehaviour
     public GameObject IncorrectSmallspottedCatshark;
     public GameObject IncorrectNursehound;
     public GameObject IncorrectBlackmouthCatshark;
+
+    [Header("Key ID Panel")]
+    public GameObject ScoreBoard;
+    public GameObject TV1;
+    public GameObject TV2;
+    public GameObject TV3;
+    public GameObject TV4;
+    public GameObject TV5;
+    public GameObject TV6;
+    public GameObject TV7;
 
     [Header("Buttons")]
     public Button button1;
@@ -427,6 +437,15 @@ public class Flashcards : MonoBehaviour
         SmallspottedCatsharkEgg.SetActive(false);
         NursehoundEgg.SetActive(false);
         BlackmouthCatsharkEgg.SetActive(false);
+        
+        ScoreBoard.SetActive(true);
+        TV1.SetActive(false);
+        TV2.SetActive(false);
+        TV3.SetActive(false);
+        TV4.SetActive(false);
+        TV5.SetActive(false);
+        TV6.SetActive(false);
+        TV7.SetActive(false);
 
     }
 
@@ -461,6 +480,6 @@ public class Flashcards : MonoBehaviour
     {
         ContinueButton.SetActive(true);
         RestartButton.SetActive(true);
-        ThisScript.SetActive(false);
+        //ThisScript.SetActive(false);
     }
 }
