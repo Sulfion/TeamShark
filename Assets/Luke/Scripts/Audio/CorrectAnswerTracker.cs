@@ -6,6 +6,8 @@ public class CorrectAnswerTracker : MonoBehaviour
 {
     public EggLoader EggLoaderScript;
 
+    public GameObject EggWaypoint;
+
     [Header("Correct Audio")]
     public GameObject NPCAudioCorrect1;
     public GameObject NPCAudioCorrect2;
@@ -33,6 +35,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if(HasAudio1 == false)
             {
                 NPCAudioCorrect1.SetActive(true);
+                EggWaypoint.SetActive(true);
                 HasAudio1 = true;
             }
                 
@@ -42,6 +45,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio2 == false)
             {
                 NPCAudioCorrect1.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect2.SetActive(true);
                 HasAudio2 = true;
             }
@@ -52,6 +56,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio3 == false)
             {
                 NPCAudioCorrect2.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect3.SetActive(true);
                 HasAudio3 = true;
             }
@@ -61,6 +66,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio4 == false)
             {
                 NPCAudioCorrect3.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect4.SetActive(true);
                 HasAudio4 = true;
             }
@@ -70,6 +76,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio5 == false)
             {
                 NPCAudioCorrect4.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect5.SetActive(true);
                 HasAudio5 = true;
             }
@@ -79,6 +86,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio6 == false)
             {
                 NPCAudioCorrect5.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect6.SetActive(true);
                 HasAudio6 = true;
             }
@@ -89,6 +97,7 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio7 == false)
             {
                 NPCAudioCorrect6.SetActive(false);
+                EggWaypoint.SetActive(true);
                 NPCAudioCorrect7.SetActive(true);
                 HasAudio7 = true;
             }

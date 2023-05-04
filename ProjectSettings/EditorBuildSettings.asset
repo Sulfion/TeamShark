@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CaitlinScene.unity
     guid: d14a5cfbac7ad93439da5be4bb73acd1
+  - enabled: 1
+    path: Assets/Scenes/Examination.unity
+    guid: 55351620ed29284498a91574f8291687
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
