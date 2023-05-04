@@ -39,7 +39,7 @@ public class EggWaypoint : MonoBehaviour
     void Update()
     {
         CheckIfEggCollected();
-        SetMarkerPosition();
+        //SetMarkerPosition();
     }
 
     //check if an egg has been collected recently or not
