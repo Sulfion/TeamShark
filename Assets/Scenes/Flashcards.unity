@@ -24712,7 +24712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2090475639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Empty Eggs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25247,7 +25247,7 @@ GameObject:
   - component: {fileID: 444172394533982181}
   - component: {fileID: 444172394533982178}
   - component: {fileID: 444172394533982179}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Smallspotted Catshark Holder
   m_TagString: SmallspottedCatsharkEgg
   m_Icon: {fileID: 0}
@@ -25430,7 +25430,7 @@ GameObject:
   - component: {fileID: 444172394551988672}
   - component: {fileID: 444172394551988675}
   - component: {fileID: 444172394551988674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Blonde Ray Egg holder
   m_TagString: BlondeRayEgg
   m_Icon: {fileID: 0}
@@ -25645,7 +25645,7 @@ GameObject:
   - component: {fileID: 444172395349068319}
   - component: {fileID: 444172395349068316}
   - component: {fileID: 444172395349068317}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Small-eyed Ray Holder
   m_TagString: SmallEyedRayEgg
   m_Icon: {fileID: 0}
@@ -25828,7 +25828,7 @@ GameObject:
   - component: {fileID: 444172395547719120}
   - component: {fileID: 444172395547719121}
   - component: {fileID: 444172395547719118}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thornback Ray Holder
   m_TagString: ThornbackRayEgg
   m_Icon: {fileID: 0}
@@ -26162,7 +26162,7 @@ GameObject:
   - component: {fileID: 444172395981618248}
   - component: {fileID: 444172395981618249}
   - component: {fileID: 444172395981618246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Undulate Ray Holder
   m_TagString: UndulateRayEgg
   m_Icon: {fileID: 0}
@@ -26406,7 +26406,7 @@ GameObject:
   - component: {fileID: 444172395985559296}
   - component: {fileID: 444172395985559297}
   - component: {fileID: 444172395985559422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cuckoo Ray Egg Holder
   m_TagString: CuckooRayEgg
   m_Icon: {fileID: 0}
@@ -26441,7 +26441,7 @@ GameObject:
   - component: {fileID: 444172396001627743}
   - component: {fileID: 444172396001627740}
   - component: {fileID: 444172396001627741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spotted Ray Holder
   m_TagString: SpottedRayEgg
   m_Icon: {fileID: 0}
@@ -26624,7 +26624,7 @@ GameObject:
   - component: {fileID: 444172396621526890}
   - component: {fileID: 444172396621526891}
   - component: {fileID: 444172396621526888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Nursehound Egg Holder
   m_TagString: NursehoundEgg
   m_Icon: {fileID: 0}

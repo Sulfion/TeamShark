@@ -3756,7 +3756,7 @@ GameObject:
   - component: {fileID: 284512513}
   - component: {fileID: 284512514}
   - component: {fileID: 284512515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Blonde Ray Egg holder
   m_TagString: BlondeRayEgg
   m_Icon: {fileID: 0}
@@ -5411,7 +5411,7 @@ GameObject:
   - component: {fileID: 394301220}
   - component: {fileID: 394301219}
   - component: {fileID: 394301218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Smallspotted Catshark Holder
   m_TagString: SmallspottedCatsharkEgg
   m_Icon: {fileID: 0}
@@ -10595,7 +10595,7 @@ GameObject:
   - component: {fileID: 661375710}
   - component: {fileID: 661375709}
   - component: {fileID: 661375708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Small-eyed Ray Holder
   m_TagString: SmallEyedRayEgg
   m_Icon: {fileID: 0}
@@ -11832,7 +11832,7 @@ GameObject:
   - component: {fileID: 723318033}
   - component: {fileID: 723318032}
   - component: {fileID: 723318031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thornback Ray Holder
   m_TagString: ThornbackRayEgg
   m_Icon: {fileID: 0}
@@ -22786,7 +22786,7 @@ GameObject:
   - component: {fileID: 1296022665}
   - component: {fileID: 1296022664}
   - component: {fileID: 1296022663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Undulate Ray Holder
   m_TagString: UndulateRayEgg
   m_Icon: {fileID: 0}
@@ -23230,7 +23230,7 @@ GameObject:
   - component: {fileID: 1299963841}
   - component: {fileID: 1299963840}
   - component: {fileID: 1299963839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cuckoo Ray Egg Holder
   m_TagString: CuckooRayEgg
   m_Icon: {fileID: 0}
@@ -23542,7 +23542,7 @@ GameObject:
   - component: {fileID: 1309478558}
   - component: {fileID: 1309478557}
   - component: {fileID: 1309478556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spotted Ray Holder
   m_TagString: SpottedRayEgg
   m_Icon: {fileID: 0}
@@ -32759,7 +32759,7 @@ GameObject:
   - component: {fileID: 1796470699}
   - component: {fileID: 1796470698}
   - component: {fileID: 1796470697}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Nursehound Egg Holder
   m_TagString: NursehoundEgg
   m_Icon: {fileID: 0}
