@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class EggLoader : MonoBehaviour
 {
@@ -9,7 +11,9 @@ public class EggLoader : MonoBehaviour
     private GameObject chosenEgg;
 
     public int CorrectGuesses1;
+    public TMP_Text CorrectGuesses1Text;
     public int IncorrectGuesses1;
+    public TMP_Text IncorrectGuesses1Text;
 
     [Header("DoneBools")]
     public bool DoneSpottedRay;
@@ -114,6 +118,9 @@ public class EggLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CorrectGuesses1Text.text = "Correct Guesses: " + CorrectGuesses1.ToString() + "/8";
+        IncorrectGuesses1Text.text = "Incorrect Guesses: " + IncorrectGuesses1.ToString();
+
         if (CorrectSpottedRay.activeInHierarchy == true)
         {
 
