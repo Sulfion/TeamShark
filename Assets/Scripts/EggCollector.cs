@@ -21,6 +21,7 @@ public class EggCollector : MonoBehaviour
         if (allEggTags.Contains(other.gameObject.tag))
         {
             totalEggsCollected++;
+            //other.gameObject.GetComponent<ParticleSystem>().Play();
             collectedEffect.Play();
             other.gameObject.SetActive(false);
 

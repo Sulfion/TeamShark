@@ -8,10 +8,12 @@ public class BeachEggSpawner : MonoBehaviour
 {
     public GameObject[] allEggs;
     public GameObject circleCenterObject;
+    private Vector3 _offset;
 
     // Start is called before the first frame update
     void Start()
     {
+        _offset = new Vector3(0, 1, 0); //control height of egg spawns
         StartCoroutine(SpawnOneOfEachEggRoutine());
     }
 
@@ -21,7 +23,7 @@ public class BeachEggSpawner : MonoBehaviour
         foreach (GameObject egg in allEggs)
         {
             Vector3 newPos = RandomPointOnCircleEdge(Random.Range(24, 28));
-            Instantiate(egg, newPos, Quaternion.identity);
+            Instantiate(egg, newPos + _offset, Quaternion.identity);
         }
         yield return null;
     }

@@ -78,6 +78,7 @@ public class EggWaypoint : MonoBehaviour
     }
 
     //make the marker follow the egg
+    //for testing purposes ONLY, uses a lot of resources
     private void SetMarkerPosition()
     {
         if (markerObjectCopy != null)
