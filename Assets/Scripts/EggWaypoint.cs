@@ -20,7 +20,7 @@ public class EggWaypoint : MonoBehaviour
 
     private float lastCollectedEggTimer;
     private int eggCollectedCheck; //compare old and new egg value to see if an egg was collected
-    private float waypointWaitTimer = 5f;
+    private float waypointWaitTimer = 30f;
     private bool stopRunning = false;
 
     public GameObject markerObject;
