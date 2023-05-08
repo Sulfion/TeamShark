@@ -21605,8 +21605,8 @@ MonoBehaviour:
     Collect all 8 different species
     of eggs.
 
-    Eggs can be picked up with your left hand, or collected with your
-    right hand.
+    Eggs can be collected by bending down and touching them with either
+    hand.
 
 
     When your hand approaches an egg, listen to the audio description
