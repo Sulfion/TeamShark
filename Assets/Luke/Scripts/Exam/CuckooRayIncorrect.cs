@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Template : MonoBehaviour
+public class CuckooRayIncorrect : MonoBehaviour
 {
     public GameObject CorrectPanel;
     public GameObject IncorrectPanel;
 
-    public EggLoader EggLoaderScript;
+    public ExamEggLoader ExamEggLoaderScript;
 
     public bool SpottedRay;
     public bool ThornbackRay;
@@ -41,17 +41,13 @@ public class Template : MonoBehaviour
         BlackmouthCatshark = false;
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
-        CorrectPanel.SetActive(true);
-        Reset();
-
         if (other.tag == "SpottedRayEgg")
         {
             if (SpottedRay == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 SpottedRay = true;
                 IncorrectPanelBlock();
             }
@@ -61,7 +57,7 @@ public class Template : MonoBehaviour
         {
             if (ThornbackRay == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 ThornbackRay = true;
                 IncorrectPanelBlock();
             }
@@ -70,7 +66,7 @@ public class Template : MonoBehaviour
         {
             if (SmallEyedRay == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 SmallEyedRay = true;
                 IncorrectPanelBlock();
             }
@@ -79,25 +75,21 @@ public class Template : MonoBehaviour
         {
             if (UndulateRay == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 UndulateRay = true;
                 IncorrectPanelBlock();
             }
         }
         if (other.tag == "CuckooRayEgg")
         {
-            if (CuckooRay == false)
-            {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
-                CuckooRay = true;
-                IncorrectPanelBlock();
-            }
+            CorrectPanel.SetActive(true);
+            Reset();
         }
         if (other.tag == "BlondeRayEgg")
         {
             if (BlondeRay == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 BlondeRay = true;
                 IncorrectPanelBlock();
             }
@@ -106,7 +98,7 @@ public class Template : MonoBehaviour
         {
             if (StarrySkate == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 StarrySkate = true;
                 IncorrectPanelBlock();
             }
@@ -115,7 +107,7 @@ public class Template : MonoBehaviour
         {
             if (BlueSkake == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 BlueSkake = true;
                 IncorrectPanelBlock();
             }
@@ -124,7 +116,7 @@ public class Template : MonoBehaviour
         {
             if (FlapperSkake == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 FlapperSkake = true;
                 IncorrectPanelBlock();
             }
@@ -133,7 +125,7 @@ public class Template : MonoBehaviour
         {
             if (WhiteSkake == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 WhiteSkake = true;
                 IncorrectPanelBlock();
             }
@@ -142,7 +134,7 @@ public class Template : MonoBehaviour
         {
             if (SmallspottedCatshark == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 SmallspottedCatshark = true;
                 IncorrectPanelBlock();
             }
@@ -151,7 +143,7 @@ public class Template : MonoBehaviour
         {
             if (Nursehound == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 Nursehound = true;
                 IncorrectPanelBlock();
             }
@@ -160,7 +152,7 @@ public class Template : MonoBehaviour
         {
             if (BlackmouthCatshark == false)
             {
-                EggLoaderScript.IncorrectGuesses1 = EggLoaderScript.IncorrectGuesses1 + 1;
+                ExamEggLoaderScript.IncorrectGuesses2 = ExamEggLoaderScript.IncorrectGuesses2 + 1;
                 BlackmouthCatshark = true;
                 IncorrectPanelBlock();
             }
@@ -185,7 +177,7 @@ public class Template : MonoBehaviour
     }
     void IncorrectPanelBlock()
     {
-        if (EggLoaderScript.DoneThornbackRay == false)
+        if (ExamEggLoaderScript.DoneCuckooRay == false)
         {
             IncorrectPanel.SetActive(true);
         }
