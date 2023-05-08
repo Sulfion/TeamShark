@@ -16,7 +16,6 @@ public class EggCollector : MonoBehaviour
     private string[] allEggTags = { "BlondeRayEgg", "CuckooRayEgg", "NursehoundEgg", "SmallEyedRayEgg", 
                                     "SmallspottedCatsharkEgg", "SpottedRayEgg", "ThornbackRayEgg", "UndulateRayEgg"};
 
-
     //disable egg when player touches it, add to counter and play collected particle effect
     public void OnTriggerEnter(Collider other)
     {
@@ -28,8 +27,14 @@ public class EggCollector : MonoBehaviour
 
             if (totalEggsCollected == 8)
             {
+                PlayerPrefs.SetString("AllEggsFound", "AllEggsFound");
                 allEggsCollected = true;
             }
         }
+    }
+
+    public void Update()
+    {
+        Debug.Log(PlayerPrefs.GetString("AllEggsFound", "Test"));
     }
 }

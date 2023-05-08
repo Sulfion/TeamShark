@@ -74,20 +74,20 @@ public class EggWaypoint : MonoBehaviour
 
     public void MarkerSpawner()
     {
-        markerObjectCopy = Instantiate(markerObject, targetEggTransform.position + _offset, Quaternion.identity);
+        markerObjectCopy = Instantiate(markerObject, targetEggTransform.position + _offset, Quaternion.Euler(0f,0f,90f));
     }
 
     //make the marker follow the egg
     //for testing purposes ONLY, uses a lot of resources
-    private void SetMarkerPosition()
-    {
-        if (markerObjectCopy != null)
-        {
-            markerObjectCopy.transform.position = targetEggTransform.position + _offset;
-        }
-        else
-        {
-            return;
-        }
-    }
+    //private void SetMarkerPosition()
+    //{
+    //    if (markerObjectCopy != null)
+    //    {
+    //        markerObjectCopy.transform.position = targetEggTransform.position + _offset;
+    //    }
+    //    else
+    //    {
+    //        return;
+    //    }
+    //}
 }

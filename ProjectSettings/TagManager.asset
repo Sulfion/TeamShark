@@ -29,6 +29,9 @@ TagManager:
   - SpottedRayTrigger
   - ThornbackRayTrigger
   - UndulateRayTrigger
+  - DropdownOne
+  - DropdownTwo
+  - DropdownThree
   layers:
   - Default
   - TransparentFX
