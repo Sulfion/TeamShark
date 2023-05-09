@@ -27536,6 +27536,7 @@ MonoBehaviour:
   FinishedButton: {fileID: 920535744}
   EggLoaderScript: {fileID: 1718862205}
   ThisObject: {fileID: 1718862196}
+  AudioExamEnd: {fileID: 1978951474}
 --- !u!114 &1718862205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30947,7 +30948,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e2c18e204c6d6f6489ecdbf5b90bf0a2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 861a1e210d04bcb41964e95d559b6b33, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
