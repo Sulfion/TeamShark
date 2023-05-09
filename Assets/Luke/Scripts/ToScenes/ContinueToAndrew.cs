@@ -17,6 +17,6 @@ public class ContinueToAndrew : MonoBehaviour
 
     public void LoadCaitlin()
     {
-        SceneManager.LoadScene("CaitlinScene");
+        SceneManager.LoadScene("AndrewScene");
     }
 }
