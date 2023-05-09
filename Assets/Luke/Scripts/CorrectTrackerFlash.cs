@@ -14,7 +14,10 @@ public class CorrectTrackerFlash : MonoBehaviour
     public GameObject NPCAudioCorrect6;
     public GameObject NPCAudioCorrect8;
 
-    
+    [Header("Scripts")]
+    public GameObject ThisObject;
+
+
     private bool HasAudio2 = false;
     
     private bool HasAudio4 = false;
@@ -61,6 +64,7 @@ public class CorrectTrackerFlash : MonoBehaviour
         {
             if (HasAudio8 == false)
             {
+                ThisObject.GetComponent<TimerUp>().enabled = false;
                 NPCAudioCorrect6.SetActive(false);
                 NPCAudioCorrect8.SetActive(true);
                 HasAudio8 = true;

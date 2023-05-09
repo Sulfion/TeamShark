@@ -22,6 +22,8 @@ public class ExamCorrectAnswerTracker : MonoBehaviour
     public ExamEggLoader EggLoaderScript;
     public GameObject ThisObject;
 
+    public GameObject AudioExamEnd;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class ExamCorrectAnswerTracker : MonoBehaviour
     {
         if (EggLoaderScript.CorrectGuesses2 == 8)
         {
+            AudioExamEnd.SetActive(true);
             ThisObject.GetComponent<TimerUp>().enabled = false;
             StartPanel.SetActive(true);
             TV1.SetActive(false);

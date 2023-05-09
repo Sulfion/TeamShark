@@ -8,6 +8,8 @@ public class CorrectAnswerTracker : MonoBehaviour
 
     public GameObject EggWaypoint;
 
+    public GameObject ThisObject;
+
     [Header("Correct Audio")]
     public GameObject NPCAudioCorrect1;
     public GameObject NPCAudioCorrect2;
@@ -107,6 +109,7 @@ public class CorrectAnswerTracker : MonoBehaviour
         {
             if (HasAudio8 == false)
             {
+                ThisObject.GetComponent<TimerUp>().enabled = false;
                 NPCAudioCorrect7.SetActive(false);
                 NPCAudioCorrect8.SetActive(true);
                 HasAudio8 = true;
