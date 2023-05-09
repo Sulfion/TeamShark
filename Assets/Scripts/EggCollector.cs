@@ -21,7 +21,7 @@ public class EggCollector : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-
+        PlayerPrefs.SetString("AllEggsFound", "False");
     }
 
     public void Update()
