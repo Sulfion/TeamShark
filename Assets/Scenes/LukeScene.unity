@@ -21639,6 +21639,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6241328702699751900, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6496163124614318091, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_AutoDeselect
@@ -21833,6 +21838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170784424948809, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9146015503685400394, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -31279,6 +31289,7 @@ GameObject:
   - component: {fileID: 1718862197}
   - component: {fileID: 1718862199}
   - component: {fileID: 1718862200}
+  - component: {fileID: 1718862201}
   m_Layer: 0
   m_Name: Scriptholder
   m_TagString: Untagged
@@ -31412,6 +31423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EggLoaderScript: {fileID: 1718862199}
   EggWaypoint: {fileID: 857352056}
+  ThisObject: {fileID: 1718862196}
   NPCAudioCorrect1: {fileID: 1297917964}
   NPCAudioCorrect2: {fileID: 1732259027}
   NPCAudioCorrect3: {fileID: 1121009051}
@@ -31420,6 +31432,19 @@ MonoBehaviour:
   NPCAudioCorrect6: {fileID: 1327318319}
   NPCAudioCorrect7: {fileID: 1886309208}
   NPCAudioCorrect8: {fileID: 1978951474}
+--- !u!114 &1718862201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718862196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1242b816098099c438198a11e3a7bd24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1479161646}
 --- !u!1 &1724055063
 GameObject:
   m_ObjectHideFlags: 0

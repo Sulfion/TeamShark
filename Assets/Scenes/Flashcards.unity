@@ -11083,6 +11083,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6241328702699751900, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6496163124614318091, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_AutoDeselect
@@ -11147,6 +11152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170784424948809, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9146015503685400394, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -15308,6 +15318,7 @@ MonoBehaviour:
   NPCAudioCorrect4: {fileID: 236225030}
   NPCAudioCorrect6: {fileID: 1276830990}
   NPCAudioCorrect8: {fileID: 1277885853}
+  ThisObject: {fileID: 1246450011}
 --- !u!1 &1247837494
 GameObject:
   m_ObjectHideFlags: 0

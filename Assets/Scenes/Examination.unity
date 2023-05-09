@@ -19034,6 +19034,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6241328702699751900, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6496163124614318091, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_AutoDeselect
@@ -19228,6 +19233,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170784424948809, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9146015503685400394, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -30838,7 +30848,6 @@ GameObject:
   - component: {fileID: 1978951478}
   - component: {fileID: 1978951477}
   - component: {fileID: 1978951476}
-  - component: {fileID: 1978951480}
   m_Layer: 0
   m_Name: Audio Correct (8)
   m_TagString: Untagged
@@ -31034,18 +31043,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1978951480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978951474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09646665793bd3f4ca354925b8e7d1b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1980035638
 GameObject:
   m_ObjectHideFlags: 0
