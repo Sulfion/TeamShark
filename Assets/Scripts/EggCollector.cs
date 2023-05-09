@@ -1,25 +1,38 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //this script is attached to the players hands and will turn off eggs when they are touched and keep track of how many eggs have been collected
 public class EggCollector : MonoBehaviour
 {
+    public int totalEggsCollected;
 
-    public int totalEggsCollected = 0;
     private bool allEggsCollected = false; //track when to change scenes
 
     public ParticleSystem collectedEffect;
 
-    private string[] allEggTags = { "BlondeRayEgg", "CuckooRayEgg", "NursehoundEgg", "SmallEyedRayEgg", 
+    private string[] allEggTags = { "BlondeRayEgg", "CuckooRayEgg", "NursehoundEgg", "SmallEyedRayEgg",
                                     "SmallspottedCatsharkEgg", "SpottedRayEgg", "ThornbackRayEgg", "UndulateRayEgg"};
+
+    // Start is called before the first frame update
+    public void Start()
+    {
+
+    }
+
+    public void Update()
+    {
+
+    }
 
     //disable egg when player touches it, add to counter and play collected particle effect
     public void OnTriggerEnter(Collider other)
     {
-        if (allEggTags.Contains(other.gameObject.tag)) 
+        if (allEggTags.Contains(other.gameObject.tag))
         {
             totalEggsCollected++;
             collectedEffect.Play();
@@ -27,14 +40,11 @@ public class EggCollector : MonoBehaviour
 
             if (totalEggsCollected == 8)
             {
-                PlayerPrefs.SetString("AllEggsFound", "AllEggsFound");
+                PlayerPrefs.SetString("AllEggsFound", "True");
                 allEggsCollected = true;
+                SceneManager.LoadScene("Examination");
+
             }
         }
-    }
-
-    public void Update()
-    {
-        Debug.Log(PlayerPrefs.GetString("AllEggsFound", "Test"));
     }
 }

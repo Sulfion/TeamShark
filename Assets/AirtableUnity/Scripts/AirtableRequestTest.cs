@@ -35,5 +35,6 @@ public class AirtableRequestTest : MonoBehaviour {
     private void ShowResponse(List<BaseRecord<BaseField>> records)
     {
 	    Debug.Log(records?.Count);
+		//Debug.Log(records[0].id);
     }
 }

@@ -339,9 +339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   createRecord: {fileID: 6352173290801333077}
   tableName: SharkDataTableOne
-  dummyStringOne: Hello
-  dummyStringTwo: World
-  dummyStringThree: '!'
+  dummyStringOne: 
+  dummyStringTwo: 
+  dummyStringThree: 
 --- !u!4 &1328717356
 Transform:
   m_ObjectHideFlags: 0
