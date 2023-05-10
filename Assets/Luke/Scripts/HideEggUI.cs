@@ -12,7 +12,7 @@ public class HideEggUI : MonoBehaviour
 
     private Coroutine cacheHideEggUIRoutine;
 
-    private GameObject hintPanel;
+    public GameObject hintPanel;
 
     public void OnTriggerEnter(Collider other)
     {
