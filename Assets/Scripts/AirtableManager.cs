@@ -46,8 +46,30 @@ public class AirtableManager : MonoBehaviour
         dataCollectionQ3 = PlayerPrefs.GetInt("DataCollectionQ3");
     }
 
+    public void UpdateFromPlayerPrefs()
+    {
+        sceneOneCorrectAnswers = PlayerPrefs.GetInt("SceneOneCorrectAnswers");
+        sceneOneIncorrectAnswers = PlayerPrefs.GetInt("SceneOneIncorrectAnswers");
+        sceneOnePlayTime = PlayerPrefs.GetFloat("SceneOnePlayTime");
+        sceneTwoCorrectGuesses = PlayerPrefs.GetInt("SceneTwoCorrectGuesses");
+        sceneTwoIncorrectGuesses = PlayerPrefs.GetInt("SceneTwoIncorrectGuesses");
+        allEggsFound = PlayerPrefs.GetString("AllEggsFound");
+        examinationDuration = PlayerPrefs.GetFloat("ExaminationDuration");
+        examCorrectGuesses = PlayerPrefs.GetInt("ExamCorrectGuesses");
+        examIncorrectGuesses = PlayerPrefs.GetInt("ExamIncorrectGuesses");
+        dataCollectionQ1 = PlayerPrefs.GetInt("DataCollectionQ1");
+        dataCollectionQ2 = PlayerPrefs.GetInt("DataCollectionQ2");
+        dataCollectionQ3 = PlayerPrefs.GetInt("DataCollectionQ3");
+    }
+
+    void Update()
+    {
+        Debug.Log(PlayerPrefs.GetInt("DataCollectionQ1"));
+    }
+
     public void LogRecordOnAirtable()
     {
+        UpdateFromPlayerPrefs();
         createRecord.TableName = tableName;
         createRecord.NewRecordJson = "{\"fields\": {" +
                                      "\"SceneOneCorrectAnswers\":\"" + sceneOneCorrectAnswers + "\", " +
@@ -64,8 +86,5 @@ public class AirtableManager : MonoBehaviour
                                      "\"DataCollectionQ3\":\"" + dataCollectionQ3 + "\"" +
                                      "}}";
         createRecord.CreateAirtableRecord();
-
-
-
     }
 }
