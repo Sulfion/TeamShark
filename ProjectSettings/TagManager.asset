@@ -34,6 +34,7 @@ TagManager:
   - DropdownThree
   - EggCollectorLeft
   - EggCollectorRight
+  - HintPanel
   layers:
   - Default
   - TransparentFX

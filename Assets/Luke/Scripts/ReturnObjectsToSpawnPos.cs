@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReturnObjectsToSpawnPos : MonoBehaviour
 {
-    private float bottomLimit = 0.2f;
+    private float bottomLimit = -0.6f;
     private Vector3 returnPosition;
 
     // Start is called before the first frame update

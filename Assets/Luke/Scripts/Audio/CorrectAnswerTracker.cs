@@ -10,6 +10,7 @@ public class CorrectAnswerTracker : MonoBehaviour
 
     public GameObject ThisObject;
 
+
     [Header("Correct Audio")]
     public GameObject NPCAudioCorrect1;
     public GameObject NPCAudioCorrect2;
@@ -110,6 +111,11 @@ public class CorrectAnswerTracker : MonoBehaviour
             if (HasAudio8 == false)
             {
                 ThisObject.GetComponent<TimerUp>().enabled = false;
+
+                PlayerPrefs.SetInt("CorrectGuesses", EggLoaderScript.CorrectGuesses1);
+                PlayerPrefs.SetInt("IncorrectGuesses", EggLoaderScript.IncorrectGuesses1);
+
+
                 NPCAudioCorrect7.SetActive(false);
                 NPCAudioCorrect8.SetActive(true);
                 HasAudio8 = true;
