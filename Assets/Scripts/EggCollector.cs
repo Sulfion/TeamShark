@@ -21,7 +21,7 @@ public class EggCollector : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-
+        PlayerPrefs.SetString("AllEggsFound", "False");
     }
 
     public void Update()
@@ -38,7 +38,7 @@ public class EggCollector : MonoBehaviour
             collectedEffect.Play();
             other.gameObject.SetActive(false);
 
-            if (totalEggsCollected == 8)
+            if (totalEggsCollected > 7)
             {
                 PlayerPrefs.SetString("AllEggsFound", "True");
                 allEggsCollected = true;
