@@ -32,9 +32,12 @@ public class TimerUp : MonoBehaviour
 
     public void TrackSceneEndingSavePlayerPref()
     {
-        if (EggLoaderScript.CorrectGuesses1 == 8)
+        if (EggLoaderScript != null)
         {
-            PlayerPrefs.SetFloat("SceneOnePlayTime", secondsCount/60);
+            if (EggLoaderScript.CorrectGuesses1 == 8)
+            {
+                PlayerPrefs.SetFloat("SceneOnePlayTime", secondsCount / 60);
+            }
         }
     }
 }

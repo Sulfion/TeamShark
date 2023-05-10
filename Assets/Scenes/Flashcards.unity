@@ -15184,7 +15184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1246450012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15299,7 +15299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1242b816098099c438198a11e3a7bd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EggLoaderScript: {fileID: 0}
   timerText: {fileID: 999579659}
+  secondsCount: 0
 --- !u!114 &1246450015
 MonoBehaviour:
   m_ObjectHideFlags: 0
