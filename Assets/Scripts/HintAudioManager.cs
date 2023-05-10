@@ -8,6 +8,8 @@ public class HintAudioManager : MonoBehaviour
     public AudioSource randomSource;
     public AudioClip[] audioHints;
 
+    public AudioSource informationPopupAudiosource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +25,11 @@ public class HintAudioManager : MonoBehaviour
 
     void RandomSoundness()
     {
-        randomSource.clip = audioHints[Random.Range(0, audioHints.Length)];
-        randomSource.Play();
-        CallAudio();
+        if (!informationPopupAudiosource.isPlaying)
+        {
+            randomSource.clip = audioHints[Random.Range(0, audioHints.Length)];
+            randomSource.Play();
+            CallAudio();
+        }
     }
 }
