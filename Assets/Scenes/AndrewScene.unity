@@ -153,10 +153,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1782130959}
-  - {fileID: 1203667708}
   - {fileID: 1563123547}
+  - {fileID: 1782130959}
   - {fileID: 1521780597}
+  - {fileID: 1203667708}
   - {fileID: 131954782}
   - {fileID: 67276284}
   - {fileID: 1297369241}
@@ -15707,6 +15707,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3e9351f50cde84d40ae5f055a3faf871, type: 3}
   - {fileID: 8300000, guid: e93f8d06603480e42bd655482fe4bb30, type: 3}
   - {fileID: 8300000, guid: 500f06ec1768ed9478ade7cb08f15f64, type: 3}
+  informationPopupAudiosource: {fileID: 1079942508}
 --- !u!82 &1255102428
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18250,7 +18251,7 @@ Transform:
   - {fileID: 1871170411}
   - {fileID: 342340967}
   m_Father: {fileID: 9209159}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1526764340
 PrefabInstance:
@@ -18619,7 +18620,7 @@ Transform:
   - {fileID: 1313645546}
   - {fileID: 826124098}
   m_Father: {fileID: 9209159}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1588147618 stripped
 Transform:
@@ -31835,7 +31836,7 @@ GameObject:
   - component: {fileID: 3127728406735401994}
   m_Layer: 2
   m_Name: XR Origin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
