@@ -27250,7 +27250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1242b816098099c438198a11e3a7bd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EggLoaderScript: {fileID: 0}
   timerText: {fileID: 943379719}
+  secondsCount: 0
 --- !u!114 &1718862202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27263,6 +27265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595a98175216e2e48b96833501b1bf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerUp: {fileID: 1718862201}
   FinishedButton: {fileID: 920535745}
 --- !u!114 &1718862203
 MonoBehaviour:

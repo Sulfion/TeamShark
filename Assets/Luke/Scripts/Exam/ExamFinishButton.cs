@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class ExamFinishButton : MonoBehaviour
 {
+    public TimerUp timerUp;
     public Button FinishedButton;
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class ExamFinishButton : MonoBehaviour
 
     public void LoadData()
     {
+        PlayerPrefs.SetFloat("ExaminationDuration", timerUp.secondsCount / 60);
         SceneManager.LoadScene("DataCollection");
     }
 }

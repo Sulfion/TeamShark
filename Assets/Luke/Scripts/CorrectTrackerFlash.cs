@@ -65,6 +65,10 @@ public class CorrectTrackerFlash : MonoBehaviour
             if (HasAudio8 == false)
             {
                 ThisObject.GetComponent<TimerUp>().enabled = false;
+
+                PlayerPrefs.SetInt("SceneTwoCorrectGuesses", FlashcardsScript.CorrectGuesses);
+                PlayerPrefs.SetInt("SceneTwoIncorrectGuesses", FlashcardsScript.IncorrectGuesses);
+
                 NPCAudioCorrect6.SetActive(false);
                 NPCAudioCorrect8.SetActive(true);
                 HasAudio8 = true;

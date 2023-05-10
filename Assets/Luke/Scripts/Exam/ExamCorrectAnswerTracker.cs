@@ -37,6 +37,10 @@ public class ExamCorrectAnswerTracker : MonoBehaviour
         {
             AudioExamEnd.SetActive(true);
             ThisObject.GetComponent<TimerUp>().enabled = false;
+
+            PlayerPrefs.SetInt("ExamCorrectGuesses", EggLoaderScript.CorrectGuesses2);
+            PlayerPrefs.SetInt("ExamIncorrectGuesses", EggLoaderScript.IncorrectGuesses2);
+
             StartPanel.SetActive(true);
             TV1.SetActive(false);
             TV2.SetActive(false);

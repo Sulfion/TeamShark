@@ -112,9 +112,8 @@ public class CorrectAnswerTracker : MonoBehaviour
             {
                 ThisObject.GetComponent<TimerUp>().enabled = false;
 
-                PlayerPrefs.SetInt("CorrectGuesses", EggLoaderScript.CorrectGuesses1);
-                PlayerPrefs.SetInt("IncorrectGuesses", EggLoaderScript.IncorrectGuesses1);
-
+                PlayerPrefs.SetInt("SceneOneCorrectAnswers", EggLoaderScript.CorrectGuesses1);
+                PlayerPrefs.SetInt("SceneOneIncorrectAnswers", EggLoaderScript.IncorrectGuesses1);
 
                 NPCAudioCorrect7.SetActive(false);
                 NPCAudioCorrect8.SetActive(true);

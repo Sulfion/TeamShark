@@ -3790,12 +3790,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createRecord: {fileID: 490719264}
+  submitButton: {fileID: 0}
   tableName: SharkDataTableOne
-  dummyStringOne: 1
-  dummyStringTwo: 2
-  dummyStringThree: 3
-  dummyStringFour: 4
-  dummyStringFive: 5
+  sceneOneCorrectAnswers: 0
+  sceneOneIncorrectAnswers: 0
+  sceneOnePlayTime: 0
+  sceneTwoCorrectGuesses: 0
+  sceneTwoIncorrectGuesses: 0
+  allEggsFound: 
+  examinationDuration: 0
+  examCorrectGuesses: 0
+  examIncorrectGuesses: 0
+  dataCollectionQ1: 0
+  dataCollectionQ2: 0
+  dataCollectionQ3: 0
 --- !u!4 &1136143484
 Transform:
   m_ObjectHideFlags: 0

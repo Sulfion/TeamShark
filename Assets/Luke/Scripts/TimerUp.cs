@@ -6,13 +6,16 @@ using System;
 
 public class TimerUp : MonoBehaviour
 {
+    public EggLoader EggLoaderScript;
+
     public TMP_Text timerText;
-    private float secondsCount;
+    public float secondsCount;
     private int minuteCount;
     
     void Update()
     {
         UpdateTimerUI();
+        TrackSceneEndingSavePlayerPref();
     }
     //call this on update
     public void UpdateTimerUI()
@@ -25,6 +28,13 @@ public class TimerUp : MonoBehaviour
             minuteCount++;
             secondsCount = 0;
         }
-        
+    }
+
+    public void TrackSceneEndingSavePlayerPref()
+    {
+        if (EggLoaderScript.CorrectGuesses1 == 8)
+        {
+            PlayerPrefs.SetFloat("SceneOnePlayTime", secondsCount/60);
+        }
     }
 }

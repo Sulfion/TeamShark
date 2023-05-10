@@ -12,8 +12,8 @@ public class DataCollectedManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(questionOne.questionOneAnswer);
-        Debug.Log(questionTwo.questionTwoAnswer);
-        Debug.Log(questionThree.questionThreeAnswer);
+        PlayerPrefs.SetInt("DataCollectionQ1", questionOne.questionOneAnswer);
+        PlayerPrefs.SetInt("DataCollectionQ2", questionTwo.questionTwoAnswer);
+        PlayerPrefs.SetInt("DataCollectionQ3", questionThree.questionThreeAnswer);
     }
 }
