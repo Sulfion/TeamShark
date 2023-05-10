@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 5769711906683974477}
   - component: {fileID: 1235547391177489308}
   - component: {fileID: 6875807025008481191}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Cuckoo Ray Egg Holder
   m_TagString: CuckooRayEgg
   m_Icon: {fileID: 0}

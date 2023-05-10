@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3202672069225115435}
   - component: {fileID: -4262062256834910099}
   - component: {fileID: -2277151927661576958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Blonde Ray Egg holder
   m_TagString: BlondeRayEgg
   m_Icon: {fileID: 0}

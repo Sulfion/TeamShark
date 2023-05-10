@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 7016041575666487865}
   - component: {fileID: 1822231523724090875}
   - component: {fileID: 6842435203544672910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Spotted Ray Holder
   m_TagString: SpottedRayEgg
   m_Icon: {fileID: 0}

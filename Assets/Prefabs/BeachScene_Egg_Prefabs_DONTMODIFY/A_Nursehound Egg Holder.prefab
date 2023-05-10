@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 1385881954371210513}
   - component: {fileID: 7724436038328641820}
   - component: {fileID: 1888268020430024735}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Nursehound Egg Holder
   m_TagString: NursehoundEgg
   m_Icon: {fileID: 0}
