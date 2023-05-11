@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 8587091905257088602}
   - component: {fileID: 4117817297028407466}
   - component: {fileID: -358173629246150635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Undulate Ray Holder
   m_TagString: UndulateRayEgg
   m_Icon: {fileID: 0}

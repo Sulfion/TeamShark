@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 1315860660772641339}
   - component: {fileID: 6549821487219193583}
   - component: {fileID: 7905373617566775743}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Thornback Ray Holder
   m_TagString: ThornbackRayEgg
   m_Icon: {fileID: 0}

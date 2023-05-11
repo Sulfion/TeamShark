@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 6992655279099381730}
   - component: {fileID: 308711198223741611}
   - component: {fileID: -6221089176296600263}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Smallspotted Catshark Holder
   m_TagString: SmallspottedCatsharkEgg
   m_Icon: {fileID: 0}

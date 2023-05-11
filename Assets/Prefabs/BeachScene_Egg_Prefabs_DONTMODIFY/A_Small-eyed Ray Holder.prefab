@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5710992254904395751}
   - component: {fileID: 7745399498908577828}
   - component: {fileID: 359847265315340834}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: A_Small-eyed Ray Holder
   m_TagString: SmallEyedRayEgg
   m_Icon: {fileID: 0}
