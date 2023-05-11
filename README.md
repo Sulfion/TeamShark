@@ -1,33 +1,39 @@
 # TeamShark
-
-![image](https://user-images.githubusercontent.com/115562974/226643766-f5254309-8d5a-4707-9d15-3c520e5127db.png)
-
-
 ### EG-M130: Assignment 3: Training Machines Group Project VR MSc for Swansea University 
 <br/>
 
-# :shark: Title
-Explain App <br/>
-
+# :shark: The Shark Trust VR Training Application
+The Shark Trust VR Training Application is a virtual reality (VR) app designed to teach users about searching for and recognizing shark egg sacks around the coast of the UK. The app uses interactive gameplay and educational content to engage the user and promote learning about marine life. <br/>
+#
 ## :movie_camera: Video
 Video link
 
+
+#
+## :video_game: How to Play
+To run The Shark Trust VR Training Application, you will need a VR headset. The app is compatible with the Meta Quest 2. 
+To install simply download the release APK and add it on to the device.
+
+#
+## :hospital: Features
+•	Immersive VR experience <br/>
+•	Realistic shark egg sack models <br/>
+•	Interactive gameplay <br/>
+•	Educational content about shark egg sacks and marine life <br/>
+
+In The Shark Trust VR Training Application, players will learn about the egg sacks in the classroom then take that knowledge and explore a virtual beach and search for shark egg sacks hidden around the environment. The app provides educational content about shark egg sacks and marine life to help players learn about the creatures they're searching for.
+
+#
+## :paintbrush: Created by:
+### Andrew Varosky-Allsop
+### Anthony Burt
+### Caitlin Brockway
+### Dhruv Shah
+### Luke Honey
 #
 ## :desktop_computer: Website
 website link
 #
-## :hospital: feature 1
-feature 1 explaination
-#
-## :family_man_man_girl_boy: feature 2
-feature 2 explination
-#
-## :paintbrush: Created by:
-### Luke Honey
-### Caitlin Brockway
-### Andrew Varosky-Allsop
-### Anthony Burt
-### Dhruv Shah
 #
 ## :computer: Tested on:
 ### Unity Version: 2021.3.17f1 tested on Acer laptop Nitro 5 and Oculus/ Meta Quest 2

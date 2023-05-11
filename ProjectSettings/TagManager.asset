@@ -35,6 +35,7 @@ TagManager:
   - EggCollectorLeft
   - EggCollectorRight
   - HintPanel
+  - Cube
   layers:
   - Default
   - TransparentFX
