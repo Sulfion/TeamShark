@@ -16,7 +16,7 @@ public class AirtableManager : MonoBehaviour
     public float sceneOnePlayTime;
     public int sceneTwoCorrectGuesses;
     public int sceneTwoIncorrectGuesses;
-    public string allEggsFound;
+    public int allEggsFound;
     public float examinationDuration;
     public int examCorrectGuesses;
     public int examIncorrectGuesses;
@@ -37,7 +37,7 @@ public class AirtableManager : MonoBehaviour
         sceneOnePlayTime = PlayerPrefs.GetFloat("SceneOnePlayTime");
         sceneTwoCorrectGuesses = PlayerPrefs.GetInt("SceneTwoCorrectGuesses");
         sceneTwoIncorrectGuesses = PlayerPrefs.GetInt("SceneTwoIncorrectGuesses");
-        allEggsFound = PlayerPrefs.GetString("AllEggsFound");
+        allEggsFound = PlayerPrefs.GetInt("NumberOfEggsFound");
         examinationDuration = PlayerPrefs.GetFloat("ExaminationDuration");
         examCorrectGuesses = PlayerPrefs.GetInt("ExamCorrectGuesses");
         examIncorrectGuesses = PlayerPrefs.GetInt("ExamIncorrectGuesses");
@@ -53,7 +53,7 @@ public class AirtableManager : MonoBehaviour
         sceneOnePlayTime = PlayerPrefs.GetFloat("SceneOnePlayTime");
         sceneTwoCorrectGuesses = PlayerPrefs.GetInt("SceneTwoCorrectGuesses");
         sceneTwoIncorrectGuesses = PlayerPrefs.GetInt("SceneTwoIncorrectGuesses");
-        allEggsFound = PlayerPrefs.GetString("AllEggsFound");
+        allEggsFound = PlayerPrefs.GetInt("NumberOfEggsFound");
         examinationDuration = PlayerPrefs.GetFloat("ExaminationDuration");
         examCorrectGuesses = PlayerPrefs.GetInt("ExamCorrectGuesses");
         examIncorrectGuesses = PlayerPrefs.GetInt("ExamIncorrectGuesses");
@@ -77,7 +77,7 @@ public class AirtableManager : MonoBehaviour
                                      "\"SceneOnePlayTime\":\"" + sceneOnePlayTime + "\", " +
                                      "\"SceneTwoCorrectGuesses\":\"" + sceneTwoCorrectGuesses + "\", " +
                                      "\"SceneTwoIncorrectGuesses\":\"" + sceneTwoIncorrectGuesses + "\", " +
-                                     "\"AllEggsFound\":\"" + allEggsFound + "\", " +
+                                     "\"NumberOfEggsFound\":\"" + allEggsFound + "\", " +
                                      "\"ExaminationDuration\":\"" + examinationDuration + "\", " +
                                      "\"ExamCorrectGuesses\":\"" + examCorrectGuesses + "\", " +
                                      "\"ExamIncorrectGuesses\":\"" + examIncorrectGuesses + "\", " +

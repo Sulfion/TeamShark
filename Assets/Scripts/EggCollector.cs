@@ -11,8 +11,6 @@ public class EggCollector : MonoBehaviour
 {
     public int totalEggsCollected;
 
-    private bool allEggsCollected = false; //track when to change scenes
-
     public ParticleSystem collectedEffect;
 
     private string[] allEggTags = { "BlondeRayEgg", "CuckooRayEgg", "NursehoundEgg", "SmallEyedRayEgg",
@@ -38,10 +36,9 @@ public class EggCollector : MonoBehaviour
             collectedEffect.Play();
             other.gameObject.SetActive(false);
 
-            if (totalEggsCollected > 7)
+            if (totalEggsCollected == 8)
             {
-                PlayerPrefs.SetString("AllEggsFound", "True");
-                allEggsCollected = true;
+                PlayerPrefs.SetInt("NumberOfEggsFound", totalEggsCollected);
                 SceneManager.LoadScene("Examination");
 
             }
