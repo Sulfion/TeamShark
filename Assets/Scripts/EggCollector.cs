@@ -22,11 +22,6 @@ public class EggCollector : MonoBehaviour
         PlayerPrefs.SetString("AllEggsFound", "False");
     }
 
-    public void Update()
-    {
-
-    }
-
     //disable egg when player touches it, add to counter and play collected particle effect
     public void OnTriggerEnter(Collider other)
     {

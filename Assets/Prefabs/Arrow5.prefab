@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3567016086059402586}
   - component: {fileID: 445660299926948607}
   - component: {fileID: 2435245527268539957}
+  - component: {fileID: 4084637944084554437}
   m_Layer: 0
   m_Name: Arrow5
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4084637944084554437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4236557491629760480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9d024da760bfb44887a0cc296a9f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 25
+  rotationDirection: {x: 1, y: 0, z: 0}
