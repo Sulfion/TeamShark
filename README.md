@@ -17,9 +17,9 @@ To install simply download the release APK and add it on to the device.
 #
 ## :hospital: Features
 •	Immersive VR experience <br/>
-•	Realistic shark egg sack models <br/>
+•	Realistic shark egg cases models <br/>
 •	Interactive gameplay <br/>
-•	Educational content about shark egg sacks and marine life <br/>
+•	Educational content about shark egg cases and marine life <br/>
 
 In The Shark Trust VR Training Application, players will learn about the egg cases in the classroom then take that knowledge and explore a virtual beach and search for shark egg cases hidden around the environment. The app provides educational content about shark egg cases and marine life to help players learn about the creatures they're searching for.
 
