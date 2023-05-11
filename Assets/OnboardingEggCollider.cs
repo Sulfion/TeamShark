@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OnboardingEggCollider : MonoBehaviour
 {
+    public GameObject OldAudio;
+    public GameObject NewAudio;
     public GameObject ThisGameObject;
     public GameObject cube1;
     public GameObject cube2;
@@ -13,6 +15,8 @@ public class OnboardingEggCollider : MonoBehaviour
     {
         if (target.tag == "SharkEgg")
         {
+            OldAudio.SetActive(false);
+            NewAudio.SetActive(true);
             cube1.SetActive(true);
             cube2.SetActive(true);
             ThatPanel.SetActive(true);

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OnboardingCubeCollider : MonoBehaviour
 {
+    public GameObject OldAudio;
     public GameObject AudioFinish;
     public GameObject cube1;
     public GameObject cube2;
@@ -13,7 +14,7 @@ public class OnboardingCubeCollider : MonoBehaviour
     {
         if (target.tag == "Cube")
         {
-            
+            OldAudio.SetActive(false);
             ThatPanel.SetActive(true);
             ThisPanel.SetActive(false);
             AudioFinish.SetActive(true);
