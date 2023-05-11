@@ -14134,7 +14134,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &867669595
 Canvas:
   m_ObjectHideFlags: 0
@@ -22560,17 +22560,17 @@ MonoBehaviour:
     THE AIM
 
     Collect all 8 different species
-    of eggs.
+    of egg cases.
 
-    Eggs can be collected by bending down picking them up, and placing
-    them in your bucket.
+    Egg cases can be collected by bending down picking them up,
+    and placing them in your bucket.
 
 
-    When your hand approaches an egg, listen to the audio
-    description to find out more about that particular species.
+    When your hand approaches an eggcase,
+    listen to the audio description to find out more about that particular species.
 
-    There are eight
-    eggs to find! Good Luck.'
+    There
+    are eight egg cases to find! Good Luck.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

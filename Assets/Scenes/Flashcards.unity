@@ -783,11 +783,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "After familiarizing yourself with the egg casings, it's time for a rapid
-    round.\n\n Upon selecting start on the TV, an egg will appear, you'll need to
-    use the ruler to identity it. Next, using your ray cast, select the corresponding
-    picture. \n\nRepeat this process until you've successfully identified eight eggs,
-    at which point you'll progress to the beach! \n\nShould you require additional
+  m_text: "After familiarizing yourself with the egg cases, it's time for a rapid
+    round.\n\n Upon selecting start on the TV, an egg case will appear, you'll need
+    to use the ruler to identity it. Next, using your ray cast, select the corresponding
+    picture. \n\nRepeat this process until you've successfully identified eight egg
+    cases, at which point you'll progress to the beach! \n\nShould you require additional
     assistance, simply select the help button on the TV to access the Guide."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
