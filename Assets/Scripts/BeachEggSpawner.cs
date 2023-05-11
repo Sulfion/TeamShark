@@ -13,7 +13,7 @@ public class BeachEggSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _offset = new Vector3(0, 1, 0); //control height of egg spawns
+        _offset = new Vector3(0, 2, 0); //control height of egg spawns
         StartCoroutine(SpawnOneOfEachEggRoutine());
     }
 
