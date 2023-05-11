@@ -41,7 +41,7 @@ Plate - Assiette/plate – By SalrunMacaod - https://sketchfab.com/3d-models/ass
 Ruler - Book - Pencil - Ruler - Eraser Free low-poly 3D model - By Yogabudisn - https://www.cgtrader.com/free-3d-models/household/household-tools/book-pencil-ruler-eraser <br/>
 Shelf - [FREE] Wooden Shelf 4K PBR Game-Ready - By Rodrigo E. Maranzana - https://sketchfab.com/3d-models/free-wooden-shelf-4k-pbr-game-ready-b46240bc8d63423e9db25e55fb571642 <br/>
 Table - Marble Shelf 2 – by Vilad - https://sketchfab.com/3d-models/marble-shelf-2-0c48aa1f33da4831b9fc991fdacdd08f <br/>
-TV - TV Flatscreen Wall Monitor (LowPoly) - By bossdeff - https://sketchfab.com/3d-models/tv-flatscreen-wall-monitor-lowpoly-1b4771c14d97463f9aa1760288bc2b7a 
+TV - TV Flatscreen Wall Monitor (LowPoly) - By bossdeff - https://sketchfab.com/3d-models/tv-flatscreen-wall-monitor-lowpoly-1b4771c14d97463f9aa1760288bc2b7a <br/>
 Rocks - Rocks Low poly - bossdeff- https://sketchfab.com/3d-models/rocks-low-poly-3e7b93a918db4f41a95ec210129b589d
 <br/>
 
