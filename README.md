@@ -3,7 +3,7 @@
 <br/>
 
 # :shark: The Shark Trust VR Training Application
-The Shark Trust VR Training Application is a virtual reality (VR) app designed to teach users about searching for and recognizing shark egg sacks around the coast of the UK. The app uses interactive gameplay and educational content to engage the user and promote learning about marine life. <br/>
+The Shark Trust VR Training Application is a virtual reality (VR) app designed to teach users about searching for and recognizing shark egg cases around the coast of the UK. The app uses interactive gameplay and educational content to engage the user and promote learning about marine life. <br/>
 #
 ## :movie_camera: Video
 Video link
@@ -21,7 +21,7 @@ To install simply download the release APK and add it on to the device.
 •	Interactive gameplay <br/>
 •	Educational content about shark egg sacks and marine life <br/>
 
-In The Shark Trust VR Training Application, players will learn about the egg sacks in the classroom then take that knowledge and explore a virtual beach and search for shark egg sacks hidden around the environment. The app provides educational content about shark egg sacks and marine life to help players learn about the creatures they're searching for.
+In The Shark Trust VR Training Application, players will learn about the egg cases in the classroom then take that knowledge and explore a virtual beach and search for shark egg cases hidden around the environment. The app provides educational content about shark egg cases and marine life to help players learn about the creatures they're searching for.
 
 #
 ## :paintbrush: Created by:
