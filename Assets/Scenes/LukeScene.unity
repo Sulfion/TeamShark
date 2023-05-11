@@ -15193,6 +15193,7 @@ GameObject:
   - component: {fileID: 857352060}
   - component: {fileID: 857352059}
   - component: {fileID: 857352058}
+  - component: {fileID: 857352062}
   m_Layer: 0
   m_Name: Waypoint Eggs
   m_TagString: Untagged
@@ -15293,6 +15294,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857352056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &857352062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857352056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9d024da760bfb44887a0cc296a9f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 25
+  rotationDirection: {x: 0, y: 0, z: 1}
 --- !u!1 &883142767
 GameObject:
   m_ObjectHideFlags: 0
@@ -35580,7 +35595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963268026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.064, z: -0.045}
+  m_LocalPosition: {x: 0, y: 2.064, z: 0.022}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -46638,6 +46653,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0bad488b82cf4b429c30d155203c73f, type: 3}
+--- !u!1 &7800620511187023326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3773749896688759241, guid: a0bad488b82cf4b429c30d155203c73f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7800620511187023325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7800620511187023327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800620511187023326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9d024da760bfb44887a0cc296a9f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 25
+  rotationDirection: {x: 1, y: 0, z: 0}
 --- !u!4 &7804954304474509385
 Transform:
   m_ObjectHideFlags: 0
