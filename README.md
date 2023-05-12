@@ -50,16 +50,19 @@ Table - Marble Shelf 2 – by Vilad - https://sketchfab.com/3d-models/marble-she
 TV - TV Flatscreen Wall Monitor (LowPoly) - By Bossdeff - https://sketchfab.com/3d-models/tv-flatscreen-wall-monitor-lowpoly-1b4771c14d97463f9aa1760288bc2b7a <br/>
 Rocks - Rocks Low poly - By Bossdeff - https://sketchfab.com/3d-models/rocks-low-poly-3e7b93a918db4f41a95ec210129b589d <br/>
 Banner - Low Poly Banner - By Sakarias - https://sketchfab.com/3d-models/low-poly-banner-f690607ac6624fcf9561f7433c1932a3 <br/>
+3D Seashell Asset: Found- Unity Asset store https://assetstore.unity.com/packages/3d/characters/animals/fish/3d-seashell-208785 <br/>
+SkyBox Asset: Found- Unity Asset Store https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014 <br/>
+Bark Texture Asset: Found – Unity Asset store https://assetstore.unity.com/packages/2d/textures-materials/wood/bark-pbr-textures-191305 <br/>
+Boat Asset : Found – Unity Asset Store https://assetstore.unity.com/packages/3d/vehicles/sea/boats-polypack-189866 <br/>
+Reeds Asset: Found – Unity Asset Store https://assetstore.unity.com/packages/3d/vegetation/plants/gen04-reeds-free-212548 <br/>
+Simple Water Shader URP: Found – Unity Asset Store https://assetstore.unity.com/packages/2d/textures-materials/water/simple-water-shader-urp-191449 <br/>
+Old Snag: Found – TurboSquid - https://www.turbosquid.com/3d-models/3d-old-snag-1892384 <br/>
 
 ### Audio:
-<br/>
-
-
-### Images:
-<br/>
-
-
-### Materials:
+CalmWaves SandBeach 03 – Created by Klankbeeld - Freesound https://freesound.org/people/klankbeeld/sounds/191296/ <br/>
+Miracle Graden –By PrabajithK - https://pixabay.com/music/meditationspiritual-miracle-graden-by-prabajithk-122679/ 
+Wrong Answer Buzzer – Created by Andreas – FreeSound https://freesound.org/people/-Andreas/sounds/648462/ <br/>
+Quiz Game Show Correct – Created by caraigscottuk – Freesound https://freesound.org/people/craigscottuk/sounds/644950/ <br/>
 <br/>
 
 ### NPC's and Animations: 
