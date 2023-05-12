@@ -32,7 +32,7 @@ In The Shark Trust VR Training Application, players will learn about the egg cas
 ### Luke Honey
 #
 ## :desktop_computer: Website
-[PROJECT SIARC VR](https://caitlinbrockway.wixsite.com/projectshark)
+[https://caitlinbrockway.wixsite.com/projectshark](https://caitlinbrockway.wixsite.com/projectshark)
 #
 #
 ## :computer: Tested on:
