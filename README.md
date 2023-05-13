@@ -6,13 +6,7 @@
 The Shark Trust VR Training Application is a virtual reality (VR) app designed to teach users about searching for and recognizing shark egg cases around the coast of the UK. The app uses interactive gameplay and educational content to engage the user and promote learning about marine life. <br/>
 #
 ## :movie_camera: Video
-
-
-https://github.com/Sulfion/TeamShark/assets/115563029/3001b988-8669-4a14-a413-9f1001546d83
-
-
-
-
+https://github.com/Sulfion/TeamShark/assets/115563029/e9b9f037-d1f2-4fe1-83f5-c6fda4e4c221
 #
 ## :video_game: How to Play
 To run The Shark Trust VR Training Application, you will need a VR headset. The app is compatible with the Meta Quest 2. 
